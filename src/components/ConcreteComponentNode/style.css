@@ -1,0 +1,50 @@
+.concrete-component-node {
+  height: 557px;
+  width: 1440px;
+}
+
+.concrete-component-node .overlap {
+  height: 557px;
+  position: relative;
+}
+
+.concrete-component-node .group-wrapper {
+  height: 557px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.concrete-component-node .footer-instance-wrapper {
+  height: 557px;
+}
+
+.concrete-component-node .group-4 {
+  height: 15px;
+  left: 1200px;
+  position: absolute;
+  top: 33px;
+  width: 66px;
+}
+
+.concrete-component-node .group-5 {
+  height: 15px;
+  position: relative;
+  width: 68px;
+}
+
+.concrete-component-node .text-wrapper-26 {
+  color: #ffffff;
+  font-family: var(--caption-reg-font-family);
+  font-size: var(--caption-reg-font-size);
+  font-style: var(--caption-reg-font-style);
+  font-weight: var(--caption-reg-font-weight);
+  height: 15px;
+  left: 0;
+  letter-spacing: var(--caption-reg-letter-spacing);
+  line-height: var(--caption-reg-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}

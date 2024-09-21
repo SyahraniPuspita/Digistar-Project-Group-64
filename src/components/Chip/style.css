@@ -1,0 +1,49 @@
+
+
+.chip .KURSUS-FREEMIUM {
+  align-items: center;
+  
+  border-radius: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  padding: 4px 16px;
+  position: relative;
+  background-color: var(--foundationpijar-bluep300);
+  color: var(--foundation-pijar-bluep50);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chip .KURSUS-PAID {
+  align-items: center;
+  border-radius: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  padding: 4px 16px;
+  position: relative;
+  background-color: var(--foundation-pijar-orangep300);
+  color: var(--foundation-pijar-bluep50);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+

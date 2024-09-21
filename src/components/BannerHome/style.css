@@ -1,0 +1,176 @@
+.banner-home {
+    height: 364px;
+    position: relative;
+    width: 1199px;
+  }
+  
+  .banner-home .banner-atas {
+    height: 337px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1199px;
+  }
+  
+  
+  .banner-home .background {
+    background-color: #fb9207;
+    border-radius: 7px;
+    height: 8px;
+    position: relative;
+    width: 18px;
+  }
+  
+  .banner-home .div {
+    border-radius: 4px;
+    height: 8px;
+    position: relative;
+    width: 8px;
+  }
+  
+  .banner-home .frame {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .banner-home .background-2 {
+    height: 8px;
+    position: relative;
+  }
+  
+  .banner-home .background-3 {
+    height: 8px;
+    position: relative;
+  }
+  
+  .banner-home .background-4 {
+    height: 8px;
+    position: relative;
+  }
+  
+  .banner-home .new-features {
+    height: 8px;
+    width: 66px;
+  }
+  
+  .banner-home .student-kit {
+    height: 8px;
+    width: 66px;
+  }
+  
+  .banner-home .freemium {
+    height: 8px;
+    width: 66px;
+  }
+  
+  .banner-home .pay-later {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+  }
+  
+  /* .banner-home .dots.new-features .background-2 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.student-kit .background-2 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.freemium .background-2 {
+    background-color: #fb9207;
+    border-radius: 7px;
+    width: 18px;
+  }
+  
+  .banner-home .dots.pay-later .background-2 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.new-features .background-3 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.student-kit .background-3 {
+    background-color: #fb9207;
+    border-radius: 7px;
+    width: 18px;
+  }
+  
+  .banner-home .dots.freemium .background-3 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.pay-later .background-3 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.new-features .background-4 {
+    background-color: #fb9207;
+    border-radius: 7px;
+    width: 18px;
+  }
+  
+  .banner-home .dots.student-kit .background-4 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.freemium .background-4 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  }
+  
+  .banner-home .dots.pay-later .background-4 {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 8px;
+  } */
+  
+  .banner-atas {
+    min-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .dots-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transisi untuk perubahan warna dot */
+  }
+  
+  .dot.active {
+    background-color: orange;
+  }
+  

@@ -1,0 +1,1 @@
+export { CheckboxOnVariant3 } from "./CheckboxOnVariant3";

@@ -1,0 +1,139 @@
+.deskripsi-course {
+  align-items: center;
+  background-color: var(--foundationneutraln-0);
+  border-radius: 20px;
+  box-shadow: var(--shadow-1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  position: relative;
+  width: 795px;
+  transition: height 0.3s ease; /* Tambahkan transisi untuk efek yang lebih halus */
+}
+
+.deskripsi-course .frame-8 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+
+.ellipse-freemium {
+  background-color: var(--foundationpijar-bluep300);
+  border-radius: 11.5px;
+  height: 23px;
+  position: relative;
+  width: 23px; /* Warna biru untuk freemium */
+}
+
+.ellipse-paid {
+  background-color: var(--foundation-pijar-orangep300); 
+  border-radius: 11.5px;
+  height: 23px;
+  position: relative;
+  width: 23px;/* Warna orange untuk paid */
+}
+
+.deskripsi-course .text-wrapper-4 {
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-reg-font-family);
+  font-size: var(--body-reg-font-size);
+  font-style: var(--body-reg-font-style);
+  font-weight: var(--body-reg-font-weight);
+  letter-spacing: var(--body-reg-letter-spacing);
+  line-height: var(--body-reg-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.deskripsi-course .pelatihan-ini {
+  color: var(--foundationneutraln-900);
+  font-family: var(--subtitle-reg-font-family);
+  font-size: var(--subtitle-reg-font-size);
+  font-style: var(--subtitle-reg-font-style);
+  font-weight: var(--subtitle-reg-font-weight);
+  letter-spacing: var(--subtitle-reg-letter-spacing);
+  line-height: var(--subtitle-reg-line-height);
+  position: relative;
+  text-align: justify;
+  width: 669px;
+  transition: all 0.3s ease; /* Transisi untuk smooth expand/collapse */
+}
+
+.deskripsi-course .span {
+  color: #292929;
+  font-family: var(--subtitle-reg-font-family);
+  font-size: var(--subtitle-reg-font-size);
+  font-style: var(--subtitle-reg-font-style);
+  font-weight: var(--subtitle-reg-font-weight);
+  letter-spacing: var(--subtitle-reg-letter-spacing);
+  line-height: var(--subtitle-reg-line-height);
+}
+
+.deskripsi-course .text-wrapper-5 {
+  font-family: var(--subtitle-reg-font-family);
+  font-size: var(--subtitle-reg-font-size);
+  font-style: var(--subtitle-reg-font-style);
+  font-weight: var(--subtitle-reg-font-weight);
+  letter-spacing: var(--subtitle-reg-letter-spacing);
+  line-height: var(--subtitle-reg-line-height);
+}
+
+
+.text-freemium {
+  align-self: stretch;
+  color: var(--foundationpijar-bluep300);
+  font-family: var(--subtitle-bold-font-family);
+  font-size: var(--subtitle-bold-font-size);
+  font-style: var(--subtitle-bold-font-style);
+  font-weight: var(--subtitle-bold-font-weight);
+  height: 19px;
+  letter-spacing: var(--subtitle-bold-letter-spacing);
+  line-height: var(--subtitle-bold-line-height);
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.text-paid {
+  align-self: stretch;
+  color: var(--foundation-pijar-orangep300); /* Warna orange untuk paid */
+  font-family: var(--subtitle-bold-font-family);
+  font-size: var(--subtitle-bold-font-size);
+  font-style: var(--subtitle-bold-font-style);
+  font-weight: var(--subtitle-bold-font-weight);
+  height: 19px;
+  letter-spacing: var(--subtitle-bold-letter-spacing);
+  line-height: var(--subtitle-bold-line-height);
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.deskripsi-course.shorten {
+  height: auto; /* Sesuaikan sesuai jumlah baris yang ingin ditampilkan */
+}
+
+.deskripsi-course.shorten .pelatihan-ini {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6; /* Membatasi teks menjadi 6 baris */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deskripsi-course.expand .pelatihan-ini {
+  display: block; /* Tampilkan seluruh teks dalam mode expand */
+  overflow: visible;
+  height: auto;
+}

@@ -1,0 +1,227 @@
+.list-keranjang {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 696px;
+  }
+  
+  .list-keranjang .frame {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 38px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .list-keranjang .checkbox-off {
+    height: 25px !important;
+    position: relative !important;
+    width: 25px !important;
+  }
+  
+  .list-keranjang .checkbox-on {
+    height: 25.44px !important;
+    position: relative !important;
+    width: 22px !important;
+  }
+  
+  .list-keranjang .element-prakerja {
+    height: 98.73px;
+    object-fit: cover;
+    position: relative;
+    width: 140px;
+  }
+  
+  .list-keranjang .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    width: 306px;
+  }
+  
+  .list-keranjang .text-wrapper {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .list-keranjang .chip-instance {
+    font-family: var(--caption-bold-font-family) !important;
+    font-size: var(--caption-bold-font-size) !important;
+    font-style: var(--caption-bold-font-style) !important;
+    font-weight: var(--caption-bold-font-weight) !important;
+    letter-spacing: var(--caption-bold-letter-spacing) !important;
+    line-height: var(--caption-bold-line-height) !important;
+    margin-bottom: -0.5px !important;
+    margin-top: -2.5px !important;
+  }
+  
+  .list-keranjang .instance-node {
+    height: 20px !important;
+  }
+  
+  .list-keranjang .margin {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 146px;
+  }
+  
+  .list-keranjang .container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .list-keranjang .div-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .list-keranjang .text-wrapper-2 {
+    color: var(--foundationneutraln-100);
+    font-family: var(--caption-reg-font-family);
+    font-size: var(--caption-reg-font-size);
+    font-style: var(--caption-reg-font-style);
+    font-weight: var(--caption-reg-font-weight);
+    letter-spacing: var(--caption-reg-letter-spacing);
+    line-height: var(--caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .list-keranjang .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .list-keranjang .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 5px;
+    position: relative;
+  }
+  
+  .list-keranjang .star {
+    height: 17px;
+    object-fit: cover;
+    position: relative;
+    width: 17px;
+  }
+  
+  .list-keranjang .img {
+    height: 17px;
+    object-fit: cover;
+    position: relative;
+    width: 16px;
+  }
+  
+  .list-keranjang .container-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    padding: 0px 0px 0px 8px;
+    position: relative;
+    width: 33px;
+  }
+  
+  .list-keranjang .container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -3px;
+    margin-right: -2px;
+    position: relative;
+    width: 27px;
+  }
+  
+  .list-keranjang .text-wrapper-3 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-med-font-family);
+    font-size: var(--big-caption-med-font-size);
+    font-style: var(--big-caption-med-font-style);
+    font-weight: var(--big-caption-med-font-weight);
+    height: 28px;
+    letter-spacing: var(--big-caption-med-letter-spacing);
+    line-height: var(--big-caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: 27px;
+  }
+  
+  .list-keranjang .frame-4 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    width: 110px;
+  }
+  
+  .list-keranjang .text-wrapper-4 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-reg-font-family);
+    font-size: var(--body-reg-font-size);
+    font-style: var(--body-reg-font-style);
+    font-weight: var(--body-reg-font-weight);
+    letter-spacing: var(--body-reg-letter-spacing);
+    line-height: var(--body-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .list-keranjang .frame-5 {
+    flex: 0 0 auto;
+    margin-right: -1px;
+    position: relative;
+    width: 73px;
+  }
+  
+  .list-keranjang .line {
+    align-self: stretch;
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .list-keranjang.hover {
+    background-color: var(--foundationpijar-bluep50);
+  }
+  
+  .list-keranjang.on {
+    background-color: #ffffff;
+  }
+  

@@ -1,0 +1,1 @@
+export { LmsFreemium } from "./LmsFreemium";

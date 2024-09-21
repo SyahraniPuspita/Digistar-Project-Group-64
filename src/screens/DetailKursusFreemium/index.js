@@ -1,0 +1,1 @@
+export { DetailKursusFreemium} from "./DetailKursusFreemium";

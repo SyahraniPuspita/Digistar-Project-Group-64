@@ -1,0 +1,301 @@
+.detail-harga-kursus {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: var(--shadow-1);
+    display: flex;
+    gap: 10px;
+    padding: 19px 16px;
+    position: relative;
+    width: 389px;
+  
+    position: sticky;
+    margin: top 10px;
+  }
+  
+  .detail-harga-kursus .div-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 356px;
+  }
+  
+  .detail-harga-kursus .element-prakerja {
+    align-self: stretch;
+    height: 251px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-harga-kursus .frame-2 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .detail-harga-kursus .frame-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    width: 222px;
+  }
+  
+  .detail-harga-kursus .container-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 157px;
+  }
+  
+  .detail-harga-kursus .container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-harga-kursus .div-2 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-harga-kursus .text-wrapper {
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-bold-font-family);
+    font-size: var(--body-bold-font-size);
+    font-style: var(--body-bold-font-style);
+    font-weight: var(--body-bold-font-weight);
+    letter-spacing: var(--body-bold-letter-spacing);
+    line-height: var(--body-bold-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-harga-kursus .frame-4 {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 69px;
+  }
+  
+  .detail-harga-kursus .heart {
+    height: 22px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .detail-harga-kursus .share {
+    height: 23px;
+    object-fit: cover;
+    position: relative;
+    width: 23px;
+  }
+  
+  .detail-harga-kursus .frame-5 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-harga-kursus .button-instance {
+    align-self: stretch !important;
+    display: flex !important;
+    width: 100% !important;
+  }
+  
+  .detail-harga-kursus .frame-6 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 356px;
+  }
+  
+  .detail-harga-kursus .group {
+    height: 17px;
+    position: relative;
+    width: 157px;
+  }
+  
+  .detail-harga-kursus .overlap-group {
+    height: 17px;
+    position: relative;
+  }
+  
+  .detail-harga-kursus .margin {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 157px;
+  }
+  
+  .detail-harga-kursus .text-wrapper-2 {
+    color: var(--foundationneutraln-80);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-harga-kursus .line {
+    height: 1px;
+    left: 25px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 54px;
+  }
+  
+  .detail-harga-kursus .frame-7 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-harga-kursus .vector {
+    height: 115px;
+    left: 255px;
+    position: absolute;
+    top: 0;
+    width: 134px;
+  }
+  
+  .detail-harga-kursus .text-wrapper-3 {
+    color: #ffffff;
+    font-family: var(--body-med-font-family);
+    font-size: var(--body-med-font-size);
+    font-style: var(--body-med-font-style);
+    font-weight: var(--body-med-font-weight);
+    left: 289px;
+    letter-spacing: var(--body-med-letter-spacing);
+    line-height: var(--body-med-line-height);
+    position: absolute;
+    top: 33px;
+    transform: rotate(41deg);
+    white-space: nowrap;
+  }
+  
+  .detail-harga-kursus.reg-paid {
+    height: 470px;
+  }
+  
+  .detail-harga-kursus.student-freemium {
+    height: 533px;
+  }
+  
+  .detail-harga-kursus.student-paid {
+    height: 573px;
+  }
+  
+  
+  .detail-harga-kursus.reg-paid .div {
+    gap: 32px;
+  }
+  
+  .detail-harga-kursus.reg-freemium .div {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  
+  .detail-harga-kursus.reg-paid .frame-5 {
+    gap: 16px;
+  }
+  
+  .detail-harga-kursus.student-freemium .frame-5 {
+    gap: 10px;
+  }
+  
+  .detail-harga-kursus.student-paid .frame-5 {
+    gap: 10px;
+  }
+  
+  .detail-harga-kursus.reg-freemium .frame-5 {
+    gap: 10px;
+  }
+  
+  .detail-harga-kursus.reg-paid .frame-6 {
+    gap: 16px;
+  }
+  
+  .detail-harga-kursus.student-freemium .frame-6 {
+    gap: 16px;
+    margin-bottom: -6px;
+    margin-top: -6px;
+  }
+  
+  .detail-harga-kursus.student-paid .frame-6 {
+    gap: 32px;
+  }
+  
+  .detail-harga-kursus.reg-freemium .frame-6 {
+    gap: 16px;
+  }
+  
+  .detail-harga-kursus.reg-paid .frame-7 {
+    gap: 10px;
+  }
+  
+  .detail-harga-kursus.student-freemium .frame-7 {
+    gap: 10px;
+  }
+  
+  .detail-harga-kursus.student-paid .frame-7 {
+    gap: 16px;
+  }
+  
+  .detail-harga-kursus.reg-freemium .frame-7 {
+    gap: 10px;
+  }
+
+  .button.custom-width-big-outline {
+    border: 1px solid;
+    border-color: var(--foundationpijar-bluep300);
+    border-radius: 8px;
+    height: 47px;
+    padding: 0 16px;
+    display: inline-flex;
+    width: 350px;
+}
+

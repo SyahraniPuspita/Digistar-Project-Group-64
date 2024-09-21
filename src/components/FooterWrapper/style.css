@@ -1,0 +1,25 @@
+.footer-wrapper {
+  height: 557px;
+  width: 100%;
+}
+
+.footer-wrapper .overlap-group-4 {
+  height: 557px;
+  position: relative;
+}
+
+.footer-wrapper .footer-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.footer-wrapper .footer-2 {
+  background-image: url(../../../static/img/logo-default-1.svg);
+  background-size: 100% 100%;
+  height: 104px;
+  left: 120px;
+  position: absolute;
+  top: 35px;
+  width: 170px;
+}

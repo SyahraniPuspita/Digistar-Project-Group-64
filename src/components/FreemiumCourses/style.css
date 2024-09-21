@@ -1,0 +1,33 @@
+.freemium-courses {
+  height: 360px;
+  position: relative;
+  width: 1200px;
+}
+
+.freemium-courses .card-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  border-radius: 20px;
+}
+
+.freemium-courses .design-component-instance-node {
+  left: 304px !important;
+  position: absolute !important;
+  top: 0 !important;
+  border-radius: 20px;
+}
+
+.freemium-courses .card-2 {
+  left: 608px !important;
+  position: absolute !important;
+  top: 0 !important;
+  border-radius: 20px;
+}
+
+.freemium-courses .card-3 {
+  left: 912px !important;
+  position: absolute !important;
+  top: 0 !important;
+  border-radius: 20px;
+}

@@ -1,0 +1,195 @@
+.dropdown-LMS {
+    align-items: flex-end;
+    background-color: var(--foundationneutraln-0);
+    box-shadow: 1px 0px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 408px;
+  }
+  
+  .dropdown-LMS .frame {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--foundationneutraln-0);
+    box-shadow: 0px 1px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 72px;
+    padding: 13px 34px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropdown-LMS .div-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .dropdown-LMS .text-wrapper {
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-med-font-family);
+    font-size: var(--body-med-font-size);
+    font-style: var(--body-med-font-style);
+    font-weight: var(--body-med-font-weight);
+    letter-spacing: var(--body-med-letter-spacing);
+    line-height: var(--body-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dropdown-LMS .vector {
+    height: 5px;
+    left: 372px;
+    position: absolute;
+    top: 36px;
+    width: 10px;
+  }
+  
+  .dropdown-LMS .div {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 361px;
+  }
+  
+  .dropdown-LMS .frame-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--foundationneutraln-0);
+    box-shadow: 0px 1px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 50px;
+    padding: 13px 17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropdown-LMS .alur-penggunaan-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 397px;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropdown-LMS .alur-penggunaan {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dropdown-LMS .dropdown-materi-course {
+    align-self: stretch !important;
+    border: unset !important;
+    border-color: unset !important;
+    border-radius: unset !important;
+    box-shadow: 0px 1px 0px #00000026 !important;
+    width: 100% !important;
+  }
+  
+  .dropdown-LMS .fluent {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 17px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-mdl {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 75px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .img {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 135px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-2 {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 195px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-3 {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 255px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-4 {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 315px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-5 {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 375px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-6 {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 435px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-7 {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 495px;
+    width: 20px;
+  }
+  
+  .dropdown-LMS .fluent-8 {
+    height: 20px;
+    left: 322px;
+    position: absolute;
+    top: 555px;
+    width: 20px;
+  }
+  

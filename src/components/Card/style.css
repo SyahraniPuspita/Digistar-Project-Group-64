@@ -1,0 +1,571 @@
+.card {
+  box-shadow: var(--shadow-1);
+  width: 288px;
+}
+
+.card .overlap-group {
+  border-radius: 20px;
+  position: relative;
+}
+
+.card .group {
+  background-color: var(--foundation-neutraln0);
+  border-radius: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.card .div {
+  left: 10px;
+  position: relative;
+  width: 278px;
+}
+
+.card .img {
+  height: 189px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 268px;
+}
+
+.card .vector {
+  height: 91px;
+  left: 184px;
+  position: absolute;
+  top: 0;
+  width: 94px;
+}
+
+.card .vector-2 {
+  height: 57px;
+  left: 221px;
+  position: absolute;
+  top: 0;
+  width: 57px;
+}
+
+.card .rectangle-2 {
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  width: 268px;
+}
+
+.card .frame-2 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  left: 10px;
+  position: absolute;
+  width: 268px;
+}
+
+.card .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.card .nama-mitra {
+  align-self: stretch;
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-med-font-family);
+  font-size: var(--body-med-font-size);
+  font-style: var(--body-med-font-style);
+  font-weight: var(--body-med-font-weight);
+  letter-spacing: var(--body-med-letter-spacing);
+  line-height: var(--body-med-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.card .element-kursus {
+  align-self: stretch;
+  color: var(--foundation-neutraln100);
+  font-family: var(--caption-reg-font-family);
+  font-size: var(--caption-reg-font-size);
+  font-style: var(--caption-reg-font-style);
+  font-weight: var(--caption-reg-font-weight);
+  letter-spacing: var(--caption-reg-letter-spacing);
+  line-height: var(--caption-reg-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.card .nama-kursus-pijar {
+  align-self: stretch;
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.card .text-wrapper-2 {
+  align-self: stretch;
+  color: var(--foundation-neutraln100);
+  font-family: var(--caption-reg-font-family);
+  font-size: var(--caption-reg-font-size);
+  font-style: var(--caption-reg-font-style);
+  font-weight: var(--caption-reg-font-weight);
+  letter-spacing: var(--caption-reg-letter-spacing);
+  line-height: var(--caption-reg-line-height);
+  position: relative;
+}
+
+.card .frame-4 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.card .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.card .group-2 {
+  height: 15px;
+  position: relative;
+  width: 90px;
+}
+
+.card .text-wrapper-3 {
+  color: var(--foundationneutraln-900);
+  font-family: var(--caption-bold-font-family);
+  font-size: var(--caption-bold-font-size);
+  font-style: var(--caption-bold-font-style);
+  font-weight: var(--caption-bold-font-weight);
+  letter-spacing: var(--caption-bold-letter-spacing);
+  line-height: var(--caption-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 27px;
+}
+
+.card .text-wrapper-4 {
+  color: var(--foundation-neutraln100);
+  font-family: var(--caption-reg-font-family);
+  font-size: var(--caption-reg-font-size);
+  font-style: var(--caption-reg-font-style);
+  font-weight: var(--caption-reg-font-weight);
+  letter-spacing: var(--caption-reg-letter-spacing);
+  line-height: var(--caption-reg-line-height);
+  margin-right: -19px;
+  margin-top: -1px;
+  position: relative;
+  width: 162px;
+}
+
+.card .IDR-wrapper {
+  height: 25px;
+  margin-right: -2px;
+  position: relative;
+}
+
+.card .span {
+  color: #292929;
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+}
+
+.card .text-wrapper-5 {
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+}
+
+.card .text-wrapper-6 {
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  left: 76px;
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 98px;
+}
+
+.card .overlap-group-wrapper {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 78px;
+}
+
+.card .overlap-group-2 {
+  height: 15px;
+  position: relative;
+  width: 76px;
+}
+
+.card .text-wrapper-7 {
+  color: var(--foundation-neutraln300);
+  font-family: var(--caption-reg-font-family);
+  font-size: var(--caption-reg-font-size);
+  font-style: var(--caption-reg-font-style);
+  font-weight: var(--caption-reg-font-weight);
+  left: 0;
+  letter-spacing: var(--caption-reg-letter-spacing);
+  line-height: var(--caption-reg-line-height);
+  position: absolute;
+  top: 0;
+  width: 76px;
+}
+
+.card .vector-3 {
+  height: 2px;
+  left: 21px;
+  position: absolute;
+  top: 7px;
+  width: 47px;
+}
+
+.card .frame-6 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 10px;
+  position: absolute;
+  top: 208px;
+  width: 268px;
+}
+
+.card .group-3 {
+  height: 25px;
+  margin-right: -2px;
+  position: relative;
+}
+
+.card .IDR {
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  left: 115px;
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 143px;
+}
+
+.card .div-wrapper {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 112px;
+}
+
+.card .text-wrapper-8 {
+  color: var(--foundation-neutraln300);
+  font-family: var(--caption-reg-font-family);
+  font-size: var(--caption-reg-font-size);
+  font-style: var(--caption-reg-font-style);
+  font-weight: var(--caption-reg-font-weight);
+  left: 0;
+  letter-spacing: var(--caption-reg-letter-spacing);
+  line-height: var(--caption-reg-line-height);
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
+
+.card .overlap-group-3 {
+  height: 25px;
+  position: relative;
+  width: 218px;
+}
+
+.card .text-wrapper-9 {
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  left: 110px;
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 108px;
+}
+
+.card .text-wrapper-10 {
+  color: #ffffff;
+  font-family: var(--subtitle-med-font-family);
+  font-size: var(--subtitle-med-font-size);
+  font-style: var(--subtitle-med-font-style);
+  font-weight: var(--subtitle-med-font-weight);
+  left: 215px;
+  letter-spacing: var(--subtitle-med-letter-spacing);
+  line-height: var(--subtitle-med-line-height);
+  position: absolute;
+  top: 26px;
+  transform: rotate(45deg);
+  white-space: nowrap;
+}
+
+.card .text-wrapper-11 {
+  color: #ffffff;
+  font-family: var(--footnote-med12-5-font-family);
+  font-size: var(--footnote-med12-5-font-size);
+  font-style: var(--footnote-med12-5-font-style);
+  font-weight: var(--footnote-med12-5-font-weight);
+  left: 241px;
+  letter-spacing: var(--footnote-med12-5-letter-spacing);
+  line-height: var(--footnote-med12-5-line-height);
+  position: absolute;
+  top: 17px;
+  transform: rotate(45deg);
+  white-space: nowrap;
+}
+
+.card.regular-paid {
+  height: 360px;
+  border-radius: 20px;
+}
+
+.card.student-paid {
+  height: 360px;
+  border-radius: 20px;
+}
+
+.card.student-freemium {
+  height: 360px;
+  border-radius: 20px;
+}
+
+.card.regular-freemium {
+  height: 360px;
+  border-radius: 20px;
+}
+
+.card.mitra {
+  height: 240px;
+  border-radius: 20px;
+}
+
+.card.regular-paid .overlap-group {
+  height: 360px;
+}
+
+.card.student-paid .overlap-group {
+  height: 360px;
+}
+
+.card.student-freemium .overlap-group {
+  height: 360px;
+}
+
+.card.regular-freemium .overlap-group {
+  height: 360px;
+}
+
+.card.mitra .overlap-group {
+  height: 240px;
+}
+
+.card.regular-paid .group {
+  height: 360px;
+}
+
+.card.student-paid .group {
+  height: 360px;
+}
+
+.card.student-freemium .group {
+  height: 360px;
+}
+
+.card.regular-freemium .group {
+  height: 360px;
+}
+
+.card.mitra .group {
+  height: 240px;
+}
+
+.card.regular-paid .div {
+  height: 198px;
+}
+
+.card.student-paid .div {
+  height: 198px;
+}
+
+.card.student-freemium .div {
+  height: 199px;
+}
+
+.card.regular-freemium .div {
+  height: 198px;
+}
+
+.card.mitra .div {
+  height: 198px;
+}
+
+.card.regular-paid .rectangle-2 {
+  height: 189px;
+  top: 10px;
+}
+
+.card.student-paid .rectangle-2 {
+  height: 189px;
+  top: 10px;
+}
+
+.card.student-freemium .rectangle-2 {
+  height: 189px;
+  top: 10px;
+}
+
+.card.regular-freemium .rectangle-2 {
+  height: 189px;
+  top: 10px;
+}
+
+.card.mitra .rectangle-2 {
+  height: 151px;
+  top: 13px;
+}
+
+.card.regular-paid .frame-2 {
+  gap: 12px;
+  top: 208px;
+}
+
+.card.student-paid .frame-2 {
+  gap: 12px;
+  top: 208px;
+}
+
+.card.student-freemium .frame-2 {
+  gap: 12px;
+  top: 208px;
+}
+
+.card.regular-freemium .frame-2 {
+  gap: 12px;
+  top: 208px;
+}
+
+.card.mitra .frame-2 {
+  gap: 10px;
+  top: 177px;
+}
+
+.card.regular-paid .IDR-wrapper {
+  width: 165px;
+}
+
+.card.student-paid .IDR-wrapper {
+  width: 165px;
+}
+
+.card.student-freemium .IDR-wrapper {
+  width: 165px;
+}
+
+.card.regular-freemium .IDR-wrapper {
+  width: 176px;
+}
+
+.card.mitra .IDR-wrapper {
+  width: 165px;
+}
+
+.card.regular-paid .IDR-2 {
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  left: 0;
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 163px;
+}
+
+.card.student-paid .IDR-2 {
+  position: absolute;
+  width: 163px;
+}
+
+.card.student-freemium .IDR-2 {
+  position: absolute;
+  width: 163px;
+}
+
+.card.regular-freemium .IDR-2 {
+  height: 25px;
+  position: relative;
+  width: 174px;
+}
+
+.card.mitra .IDR-2 {
+  position: absolute;
+  width: 163px;
+}
+
+.card.regular-paid .group-3 {
+  width: 260px;
+}
+
+.card.student-paid .group-3 {
+  width: 260px;
+}
+
+.card.student-freemium .group-3 {
+  width: 220px;
+}
+
+.card.regular-freemium .group-3 {
+  width: 260px;
+}
+
+.card.mitra .group-3 {
+  width: 260px;
+}

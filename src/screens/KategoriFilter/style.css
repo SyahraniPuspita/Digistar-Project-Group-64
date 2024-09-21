@@ -1,0 +1,1352 @@
+.kategori-filter {
+    align-items: center;
+    background-color: var(--foundationneutraln-0);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .div-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+
+  .kategori-filter .navigation-bar {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    /* position: relative; */
+    width: 100%;
+    position: fixed; /* This will fix the navbar in place */
+    top: 0; /* Align it to the top of the page */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Ensure it stretches across the screen */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+  }
+  
+  .kategori-filter .navigasi-atas {
+    background-color: var(--foundationpijar-bluep300);
+    height: 57px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .menu-navbar-atas {
+    align-items: center;
+    display: inline-flex;
+    gap: 32px;
+    left: 345px;
+    position: relative;
+    top: 8px;
+  }
+  
+  .kategori-filter .item {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    height: 40px;
+    position: relative;
+  }
+  
+  .kategori-filter .link-3 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .SVG-2 {
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .kategori-filter .text-wrapper-28 {
+    color: var(--pijarmahiridwhite);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .header {
+    background-color: var(--foundation-neutraln0);
+    box-shadow: var(--shadow-1);
+    height: 78px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .header-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 68px;
+    justify-content: center;
+    left: 117px;
+    position: relative;
+    top: 14px;
+    left: 155px;
+  }
+  
+  .kategori-filter .logo-default {
+    height: 50px !important;
+    position: relative !important;
+    width: 81.73px !important;
+  }
+  
+  .kategori-filter .menu-search {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 38px;
+    position: relative;
+  }
+  
+  .kategori-filter .SVG-3 {
+    height: 29px;
+    left: 401px;
+    position: absolute;
+    top: -8px;
+    width: 29px;
+  }
+  
+  .kategori-filter .menu-text {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 64px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-29 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .text-wrapper-29 {
+    position: relative;
+    cursor: pointer;
+  }
+
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 0;
+  top: 100%;
+  padding: 0;
+  color: var(--pijarmahiridouter-space);
+  font-family: var(--subtitle-reg-font-family);
+  font-size: var(--subtitle-reg-font-size);
+  font-style: var(--subtitle-reg-font-style);
+  font-weight: var(--subtitle-reg-font-weight);
+  letter-spacing: var(--subtitle-reg-letter-spacing);
+  line-height: var(--subtitle-reg-line-height);
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 220px;
+  z-index: 1;
+  font-size: 13px;
+}
+
+/* Dropdown show on hover, with slight delay to avoid quick disappearance */
+.text-wrapper-28:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+}
+
+/* Styling for categories */
+.category {
+  position: relative;
+  padding: 12px;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  height: 35px;
+  font-size: 13px;
+}
+
+/* Add slight hover effect to categories */
+.category:hover {
+  background-color: #f1f1f1;
+}
+
+
+/* Keep subcategory visible on hover */
+.category:hover .subcategory,
+.subcategory:hover {
+  display: block;
+}
+
+/* Remove border from the last category */
+.category:last-child {
+  border-bottom: none;
+}
+  
+  .kategori-filter .non-course {
+    height: 20px;
+    position: relative;
+    width: 123px;
+  }
+  
+  .kategori-filter .text-wrapper-30 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    height: 20px;
+    left: 0;
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .kategori-filter .non-course-2 {
+    height: 20px;
+    margin-right: -2px;
+    position: relative;
+    width: 97px;
+  }
+  
+  .kategori-filter .search-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 405px;
+  }
+  
+  .kategori-filter .border {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 8px;
+    display: flex;
+    height: 36px;
+    overflow: hidden;
+    padding: 1px 1px 1px 17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .input {
+    flex: 1;
+    flex-grow: 1;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .kategori-filter .overlap-group-5 {
+    height: 20px;
+    position: relative;
+    width: 335px;
+  }
+  
+  .kategori-filter .container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 331px;
+  }
+  
+  .kategori-filter .text-wrapper-31 {
+    color: var(--pijarmahiridgray-chateau);
+    font-family: var(--caption-reg-font-family);
+    font-size: var(--caption-reg-font-size);
+    font-style: var(--caption-reg-font-style);
+    font-weight: var(--caption-reg-font-weight);
+    letter-spacing: var(--caption-reg-letter-spacing);
+    line-height: var(--caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .container-3 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 335px;
+  }
+  
+  .kategori-filter .margin {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .kategori-filter .menu-icon {
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .kategori-filter .header-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--foundationneutraln-20);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 107px;
+    padding: 18px 120px;
+    position: relative;
+    width: 100%;
+    padding-left: 155px;
+    padding-bottom: 0px;
+    margin-top: 140px;
+  }
+  
+  .kategori-filter .header-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .container-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .container-5 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .kategori-filter .div-wrapper-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-32 {
+    color: var(--foundationpijar-bluep300);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .container-6 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: -2.13e-14px;
+    padding: 0px 8px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-33 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .container-7 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 12px 0px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .text-wrapper-34 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-bold-font-family);
+    font-size: var(--body-bold-font-size);
+    font-style: var(--body-bold-font-style);
+    font-weight: var(--body-bold-font-weight);
+    letter-spacing: var(--body-bold-letter-spacing);
+    line-height: var(--body-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .kategori-filter .filter-sort {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 210px;
+    position: relative;
+  }
+  
+  .kategori-filter .filter {
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    width: 286px;
+  }
+  
+  .kategori-filter .container-8 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 36px;
+    position: relative;
+  }
+  
+  .kategori-filter .SVG-margin {
+    height: 36px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .kategori-filter .container-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 12px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-35 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  
+  .kategori-filter .container-10 {
+    align-items: flex-start;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    position: relative;
+    width: 702px;
+  }
+  
+  .kategori-filter .container-11 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8.53e-14px;
+    max-width: 158px;
+    position: relative;
+  }
+  
+  .kategori-filter .label-margin {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    height: 36px;
+    justify-content: center;
+    padding: 8px 14px 8px 0px;
+    position: relative;
+  }
+  
+  .kategori-filter .label {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 20px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-36 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .border-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .kategori-filter .border-2 {
+    align-items: center;
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 8px;
+    display: inline-flex;
+    height: 36px;
+    margin-right: -0.84px;
+    overflow: hidden;
+    padding: 1px 17px;
+    position: relative;
+  }
+  
+  .kategori-filter .container-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .kategori-filter .container-12 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-right: 2.16px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-37 {
+    color: var(--pijarmahiridouter-space);
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .margin-2 {
+    align-self: stretch;
+    flex: 0 0 auto;
+    margin-left: -8.17e-14px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .kategori-filter .container-13 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    position: relative;
+    width: 240px;
+  }
+  
+  .kategori-filter .container-14 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: -2.84e-14px;
+    position: relative;
+  }
+  
+  .kategori-filter .border-3 {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 8px;
+    display: flex;
+    gap: 1.42e-14px;
+    height: 36px;
+    overflow: hidden;
+    padding: 1px 17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .input-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .kategori-filter .container-15 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .text-wrapper-38 {
+    align-self: stretch;
+    color: var(--pijarmahiridouter-space);
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+  }
+  
+  .kategori-filter .konten {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .kategori-filter .filter-box {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 1px;
+    position: relative;
+    width: 288px;
+  }
+  
+  .kategori-filter .container-16 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 8px 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .container-17 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 2.84e-14px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .container-18 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0px 0px 4px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-39 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .kategori-filter .button {
+    all: unset;
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 4px 0px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-40 {
+    color: var(--foundationpijar-bluep300);
+    font-family: "Inter", Helvetica;
+    font-size: 13.5px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .div-3 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    height: 30px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .background-border-wrapper {
+    height: 1px;
+    position: relative;
+    width: 18px;
+    z-index: 1;
+  }
+  
+  .kategori-filter .background-border {
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    height: 18px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .kategori-filter .margin-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 0px 0px 8px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .kategori-filter .container-19 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-41 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .separator {
+    align-self: stretch;
+    border-color: var(--pijarmahiridathens-gray);
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 1px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .container-20 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .label-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 8px 0px 8px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .container-21 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 8px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-42 {
+    color: var(--foundationneutraln-700);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .background-border-2 {
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 9px;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 18px;
+  }
+  
+  /* .kategori-filter .frame-11 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .frame-12 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 206.41px;
+  } */
+  
+  .kategori-filter .text-wrapper-43 {
+    color: var(--foundationneutraln-60);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -0.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .text-wrapper-44 {
+    color: var(--foundationneutraln-900);
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .frame-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 206.41px;
+  }
+  
+  .kategori-filter .text-wrapper-45 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .kategori-filter .SVG-margin-2 {
+    height: 20px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .kategori-filter .text-wrapper-46 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-47 {
+    color: var(--foundationneutraln-700);
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .frame-14-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    position: relative;
+    width: 896px;
+  }
+
+  .kategori-filter .frame-14 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 206.41px;
+  }
+
+  
+  .kategori-filter .courses {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 16px 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .card-instance {
+    position: relative !important;
+  }
+  
+  .kategori-filter .design-component-instance-node {
+    top: 220px !important;
+  }
+  
+  .kategori-filter .navigation-number {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kategori-filter .container-22 {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .kategori-filter .button-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 0px 0px 8px;
+    position: relative;
+    
+  }
+  
+  .kategori-filter .button-2 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 13.48px 7px 13.47px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-48 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .button-3 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.89px 7px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-49 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .button-4 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.87px 7px 11.86px;
+    position: relative;
+  }
+  
+  .kategori-filter .button-5 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.56px 7px;
+    position: relative;
+  }
+  
+  .kategori-filter .button-6 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.74px 7px 11.73px;
+    position: relative;
+  }
+  
+  .kategori-filter .button-7 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 12px 7px 11.98px;
+    position: relative;
+  }
+  
+  .kategori-filter .button-8 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.3px 7px 11.28px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-50 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .button-9 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundation-infoi300);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 7.64px 7px 7.63px;
+    position: relative;
+  }
+  
+  .kategori-filter .text-wrapper-51 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kategori-filter .footer-3 {
+    align-self: stretch !important;
+    position: relative !important;
+    width: 100% !important;
+  }
+  
+  .kategori-filter .footer-4 {
+    width: 100% !important;
+  }
+  
+  .kategori-filter .footer-5 {
+    background-image: url(https://c.animaapp.com/7tuEZOfx/img/logo-default-5.svg) !important;
+  }
+  
+  .price-filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .price-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 115px;
+    text-align: center;
+  }
+  
+  .separator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .price-input:focus {
+    border-color: var( --foundation-infoi300);
+    outline: none;
+  }
+
+  input[type="checkbox"] {
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    height: 30px;
+    margin-left: 0px;
+  }
+
+  input[type="radio"] {
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    height: 20px;
+    margin-left: 0px;
+  }
+
+  .custom-dropdown-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .custom-dropdown {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+  }
+  
+  .custom-dropdown option {
+    padding: 10px;
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+  }
+  
+  .custom-dropdown:focus {
+    outline: none;
+    border-color: var( --foundation-infoi300);
+  }
+  
+  .custom-dropdown-container label {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+  }
+
+  
+  
+  
+
+
+
+  
+  
+  

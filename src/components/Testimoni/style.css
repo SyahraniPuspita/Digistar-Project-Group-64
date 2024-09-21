@@ -1,0 +1,107 @@
+.testimoni {
+  background-color: var(--foundation-neutraln20);
+  height: 225px;
+  width: 592px;
+}
+
+.testimoni .frame-7 {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  left: 24px;
+  position: relative;
+  top: 30px;
+  width: 544px;
+}
+
+.testimoni .ellipse {
+  height: 154px;
+  object-fit: cover;
+  position: relative;
+  width: 154px;
+}
+
+.testimoni .frame-8 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-right: -0.92px;
+  position: relative;
+  width: 366px;
+}
+
+.testimoni .frame-9 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+  width: 100%;
+}
+
+.testimoni .DITERIMA-KERJA-DI {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.testimoni .testimoni-user-aku {
+  align-self: stretch;
+  color: var(--foundationneutraln-900);
+  font-family: var(--subtitle-reg-font-family);
+  font-size: var(--subtitle-reg-font-size);
+  font-style: var(--subtitle-reg-font-style);
+  font-weight: var(--subtitle-reg-font-weight);
+  letter-spacing: var(--subtitle-reg-letter-spacing);
+  line-height: var(--subtitle-reg-line-height);
+  position: relative;
+}
+
+.testimoni .alvandreas-joan-z {
+  align-self: stretch;
+  color: var(--foundation-neutraln100);
+  font-family: var(--subtitle-reg-font-family);
+  font-size: var(--subtitle-reg-font-size);
+  font-style: var(--subtitle-reg-font-style);
+  font-weight: var(--subtitle-reg-font-weight);
+  letter-spacing: var(--subtitle-reg-letter-spacing);
+  line-height: var(--subtitle-reg-line-height);
+  position: relative;
+  text-align: right;
+}
+
+.prev-next {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: orange;
+}
+

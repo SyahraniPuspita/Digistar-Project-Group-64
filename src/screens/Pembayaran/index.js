@@ -1,0 +1,1 @@
+export { Pembayaran } from "./Pembayaran";

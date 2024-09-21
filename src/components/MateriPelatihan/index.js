@@ -1,0 +1,1 @@
+export { MateriPelatihan } from "./MateriPelatihan";

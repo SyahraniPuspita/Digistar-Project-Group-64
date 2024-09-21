@@ -1,0 +1,113 @@
+.dropdown-materi {
+    align-items: flex-start;
+    background-color: var(--foundationneutraln-0);
+    border: 1px solid;
+    border-color: var(--foundationneutraln-60);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 13px 17px;
+    position: relative;
+    width: 592px;
+  }
+  
+  .dropdown-materi .frame-2 {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropdown-materi .alur-penggunaan-2 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dropdown-materi .gridicons-dropdown {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .dropdown-materi .frame-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropdown-materi .alur-penggunaan-3 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dropdown-materi .frame-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 397px;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropdown-materi .text-wrapper-2 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dropdown-materi.closed {
+    height: 50px;
+  }
+  
+  .dropdown-materi.open .frame-2 {
+    align-items: center;
+    flex: 1;
+  }
+  
+  .dropdown-materi.closed .frame-2 {
+    align-items: center;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .dropdown-materi.locked .frame-2 {
+    align-items: flex-start;
+    flex: 0 0 auto;
+  }
+  
+  .dropdown-materi.locked .alur-penggunaan-2 {
+    margin-top: -1px;
+  }

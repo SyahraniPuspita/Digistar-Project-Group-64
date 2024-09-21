@@ -1,0 +1,1 @@
+export { KategoriKursus } from "./KategoriKursus";

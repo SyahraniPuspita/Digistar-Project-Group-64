@@ -1,0 +1,651 @@
+.kursus-saya-online {
+    background-color: #ffffff;
+    height: 2437px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .design-component-instance-node {
+    left: 0 !important;
+    position: absolute !important;
+    top: 1880px !important;
+    width: 100%;
+  }
+  
+  /* .kursus-saya-online .footer-3 {
+    align-self: stretch;
+    position: relative;
+    width: 100% !important;
+  }
+  
+  .kursus-saya-online .footer-4 {
+    width: 100% !important;
+  }
+  
+  .kursus-saya-online .footer-5 {
+    background-image: url(../../../static/img/logo-default-5.svg) !important;
+  } */
+  
+  .kursus-saya-online .navigation-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .navigasi-atas {
+    background-color: var(--foundationpijar-bluep300);
+    height: 57px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .menu-navbar-atas {
+    align-items: center;
+    display: inline-flex;
+    gap: 32px;
+    left: 345px;
+    position: relative;
+    top: 8px;
+  }
+  
+  .kursus-saya-online .item {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    height: 40px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .link-2 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .SVG-2 {
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .kursus-saya-online .text-wrapper-25 {
+    color: var(--pijarmahiridwhite);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kursus-saya-online .rectangle-6 {
+    background-color: #ffffff;
+    height: 50px;
+    left: 267px;
+    position: absolute;
+    top: 81px;
+    width: 83px;
+  }
+  
+  .kursus-saya-online .header {
+    background-color: var(--foundationneutraln-0);
+    box-shadow: var(--shadow-1);
+    height: 78px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .overlap-2 {
+    height: 64px;
+    left: 117px;
+    position: relative;
+    top: 14px;
+    width: 1193px;
+  }
+  
+  .kursus-saya-online .rectangle-7 {
+    background-color: #ffffff;
+    height: 64px;
+    left: 457px;
+    position: absolute;
+    top: 0;
+    width: 127px;
+  }
+  
+  .kursus-saya-online .header-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 68px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .kursus-saya-online .logo-default {
+    height: 50px !important;
+    position: relative !important;
+    width: 81.73px !important;
+  }
+  
+  .kursus-saya-online .menu-search {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 46px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .SVG-3 {
+    height: 29px;
+    left: 401px;
+    position: absolute;
+    top: -8px;
+    width: 29px;
+  }
+  
+  .kursus-saya-online .menu-text {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 64px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .text-wrapper-26 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+    cursor: pointer;
+  }
+  
+  .kursus-saya-online .non-course {
+    height: 20px;
+    position: relative;
+    width: 123px;
+  }
+  
+  .kursus-saya-online .text-wrapper-27 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    height: 20px;
+    left: 0;
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .kursus-saya-online .non-course-2 {
+    height: 20px;
+    margin-right: -2px;
+    position: relative;
+    width: 97px;
+  }
+  
+  .kursus-saya-online .search-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 405px;
+  }
+  
+  .kursus-saya-online .border {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 8px;
+    display: flex;
+    height: 36px;
+    overflow: hidden;
+    padding: 1px 1px 1px 17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .input {
+    flex: 1;
+    flex-grow: 1;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .kursus-saya-online .overlap-group-4-1 {
+    height: 20px;
+    position: relative;
+    width: 335px;
+  }
+  
+  .kursus-saya-online .container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 331px;
+  }
+  
+  .kursus-saya-online .text-wrapper-28 {
+    color: var(--pijarmahiridgray-chateau);
+    font-family: var(--caption-reg-font-family);
+    font-size: var(--caption-reg-font-size);
+    font-style: var(--caption-reg-font-style);
+    font-weight: var(--caption-reg-font-weight);
+    letter-spacing: var(--caption-reg-letter-spacing);
+    line-height: var(--caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kursus-saya-online .container-3 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 335px;
+  }
+  
+  .kursus-saya-online .margin {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .kursus-saya-online .menu-icon {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 31px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .cart {
+    height: 26px;
+    position: relative;
+    width: 27px;
+  }
+  
+  .kursus-saya-online .notification {
+    height: 25.1px;
+    position: relative;
+    width: 23.61px;
+  }
+  
+  .kursus-saya-online .rectangle-8 {
+    background-color: #ffffff;
+    height: 51px;
+    left: 112px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+  }
+  
+  .kursus-saya-online .profile {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .kursus-saya-online .overlap-3 {
+    height: 167px;
+    left: 0;
+    position: absolute;
+    top: 135px;
+    width: 1440px;
+  }
+  
+  .kursus-saya-online .header-wrapper {
+    align-items: flex-start;
+    background-color: var(--foundationneutraln-20);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 107px;
+    left: 0;
+    padding: 18px 120px;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .kursus-saya-online .header-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .container-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .container-5 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .kursus-saya-online .div-wrapper-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .kursus-saya-online .text-wrapper-29 {
+    color: var(--foundationpijar-bluep300);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kursus-saya-online .container-6 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: -2.13e-14px;
+    padding: 0px 8px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .text-wrapper-30 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kursus-saya-online .container-7 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 12px 0px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .text-wrapper-31 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-bold-font-family);
+    font-size: var(--body-bold-font-size);
+    font-style: var(--body-bold-font-style);
+    font-weight: var(--body-bold-font-weight);
+    letter-spacing: var(--body-bold-letter-spacing);
+    line-height: var(--body-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .tab-menu-instance {
+    left: 120px !important;
+    position: absolute !important;
+    top: 106px !important;
+  }
+  
+  .kursus-saya-online .filter-box {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundationneutraln-60);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    padding: 5px 1px;
+    position: absolute;
+    top: 317px;
+    width: 288px;
+  }
+  
+  .kursus-saya-online .container-8 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 8px 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .container-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .container-9 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0px 0px 4px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .text-wrapper-32 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .kursus-saya-online .form {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .label {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 8px 0px 8px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .kursus-saya-online .container-10 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 8px;
+    position: relative;
+    padding-top: 5px;
+  }
+  
+  .kursus-saya-online .text-wrapper-33 {
+    color: var(--foundationneutraln-700);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .kursus-saya-online .background-border {
+    background-color: var(--foundationneutraln-0);
+    border: 1px solid;
+    border-color: var(--foundationneutraln-60);
+    border-radius: 9px;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 18px;
+  }
+  
+  .kursus-saya-online .kursus-instance {
+    left: 424px !important;
+    position: absolute !important;
+    top: 317px !important;
+  }
+  
+  .kursus-saya-online .kursus-2 {
+    left: 728px !important;
+    position: absolute !important;
+    top: 317px !important;
+  }
+  
+  .kursus-saya-online .kursus-3 {
+    left: 1032px !important;
+    position: absolute !important;
+    top: 317px !important;
+  }
+  
+  .kursus-saya-online .kursus-4 {
+    left: 424px !important;
+    position: absolute !important;
+    top: 693px !important;
+  }
+  
+  .kursus-saya-online .kursus-5 {
+    left: 728px !important;
+    position: absolute !important;
+    top: 693px !important;
+  }
+  
+  .kursus-saya-online .kursus-6 {
+    top: 218px !important;
+  }
+  
+  .kursus-saya-online .kursus-7 {
+    left: 1032px !important;
+    position: absolute !important;
+    top: 693px !important;
+  }
+  
+  .kursus-saya-online .kursus-8 {
+    left: 424px !important;
+    position: absolute !important;
+    top: 1069px !important;
+  }
+  
+  .kursus-saya-online .kursus-9 {
+    left: 728px !important;
+    position: absolute !important;
+    top: 1069px !important;
+  }
+  
+  .kursus-saya-online .kursus-10 {
+    left: 1032px !important;
+    position: absolute !important;
+    top: 1069px !important;
+  }
+  
+  .kursus-saya-online .kursus-11 {
+    left: 424px !important;
+    position: absolute !important;
+    top: 1445px !important;
+  }
+  
+  .kursus-wrapped {
+    background-color: #0ff;
+    bottom: 260px;
+    position: relative;
+    right: 1320px;
+}
+
+.offline-wrapped{
+  width: 500px;
+  position: relative;
+  top: 130px;
+  right: 570px;
+  .button.short-big-filled {
+    width: 230px;
+    height: 47px;
+    display: flex;
+    left: 60px;
+    top: 10px;
+}
+}

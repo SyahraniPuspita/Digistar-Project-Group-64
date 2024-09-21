@@ -1,0 +1,55 @@
+/* Gaya untuk container */
+.ringkasan-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    font-family: var(--subtitle-bold-font-family);
+    font-size: 15px;
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+}
+
+/* Gaya untuk header (klik untuk toggle) */
+.ringkasan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f3f4f6;
+    padding: 10px;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease;
+}
+
+.arrow-icon.open {
+    transform: rotate(180deg);
+}
+
+/* Gaya untuk konten dropdown */
+.ringkasan-body {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* Membuat tulisan dan harga sejajar */
+.ringkasan-content {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 13px;
+}
+

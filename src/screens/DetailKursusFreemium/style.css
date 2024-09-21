@@ -1,0 +1,1394 @@
+.detail-kursus {
+    background-color: #ffffff;
+    height: 3433px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .overlap-2 {
+    left: 0;
+    position: absolute;
+    top: 186px;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  
+  .detail-kursus .element-prakerja-2 {
+    height: 510px;
+    object-fit: cover;
+    top: 1px;
+    width: 100%;
+  }
+  
+  .detail-kursus .rectangle-3 {
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0.93) 32.9%,
+      rgba(217, 217, 217, 0) 100%
+    );
+
+    height: 520px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .detail-kursus .detail-harga-kursus-instance {
+    left: 931px !important;
+    top: 19px !important;
+    margin-top: 10px;
+    float: right;
+  }
+  
+  .detail-kursus .frame-20 {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 65px;
+    position: absolute;
+    left: 120px;
+    top: 32px;
+    width: 1230px;
+  }
+  
+  .detail-kursus .frame-21 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: 795px;
+  }
+  
+  .detail-kursus .frame-22 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .informasi-kursus {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .chip-instance {
+    height: 22px !important;
+  }
+  
+  .detail-kursus .design-component-instance-node {
+    font-family: var(--caption-bold-font-family) !important;
+    font-size: var(--caption-bold-font-size) !important;
+    font-style: var(--caption-bold-font-style) !important;
+    font-weight: var(--caption-bold-font-weight) !important;
+    letter-spacing: var(--caption-bold-letter-spacing) !important;
+    line-height: var(--caption-bold-line-height) !important;
+    margin-top: -1.5px !important;
+  }
+  
+  .detail-kursus .frame-23 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .text-wrapper-32 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--h4-bold-font-family);
+    font-size: var(--h4-bold-font-size);
+    font-style: var(--h4-bold-font-style);
+    font-weight: var(--h4-bold-font-weight);
+    letter-spacing: var(--h4-bold-letter-spacing);
+    line-height: var(--h4-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-33 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--caption-reg-font-family);
+    font-size: var(--caption-reg-font-size);
+    font-style: var(--caption-reg-font-style);
+    font-weight: var(--caption-reg-font-weight);
+    letter-spacing: var(--caption-reg-letter-spacing);
+    line-height: var(--caption-reg-line-height);
+    position: relative;
+  }
+  
+  .detail-kursus .frame-24 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .detail-kursus .group-8 {
+    height: 18.26px;
+    margin-left: -0.83px;
+    position: relative;
+    width: 22.67px;
+  }
+  
+  .detail-kursus .div-3 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .text-wrapper-34 {
+    color: #292929;
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+  }
+  
+  .detail-kursus .text-wrapper-35 {
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+  }
+  
+  .detail-kursus .frame-25 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .detail-kursus .frame-26 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .detail-kursus .map-point {
+    height: 20px;
+    object-fit: cover;
+    position: relative;
+    width: 16px;
+  }
+  
+  .detail-kursus .img-2 {
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .detail-kursus .frame-27 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 13px;
+    position: relative;
+  }
+  
+  .detail-kursus .frame-28 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .detail-kursus .frame-29 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 5px;
+    position: relative;
+  }
+  
+  .detail-kursus .star {
+    height: 19px;
+    object-fit: cover;
+    position: relative;
+    width: 19px;
+  }
+  
+  .detail-kursus .margin-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 12px;
+    padding: 0px 0px 0px 8px;
+    position: relative;
+    width: 37px;
+  }
+  
+  .detail-kursus .container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 27px;
+  }
+  
+  .detail-kursus .container-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .text-wrapper-36 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-med-font-family);
+    font-size: var(--big-caption-med-font-size);
+    font-style: var(--big-caption-med-font-style);
+    font-weight: var(--big-caption-med-font-weight);
+    height: 28px;
+    letter-spacing: var(--big-caption-med-letter-spacing);
+    line-height: var(--big-caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: 27px;
+  }
+  
+  .detail-kursus .frame-30 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .detail-kursus .margin-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 8px;
+    position: relative;
+    width: 86px;
+  }
+  
+  .detail-kursus .container-4 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-right: -79px;
+    position: relative;
+    width: 157px;
+  }
+  
+  .detail-kursus .text-wrapper-37 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .info {
+    align-self: stretch;
+    background-color: var(--foundation-infoi50);
+    border: 1px solid;
+    border-color: var(--foundation-infoi400);
+    border-radius: 8px;
+    height: 76px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .frame-31 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    left: 8px;
+    position: absolute;
+    top: 3px;
+    width: 83px;
+  }
+  
+  .detail-kursus .gg-info {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .detail-kursus .text-wrapper-38 {
+    color: var(--foundation-infoi400);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .sertifikat-dan-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    left: 40px;
+    position: absolute;
+    top: 32px;
+    width: 734px;
+  }
+  
+  .detail-kursus .sertifikat-dan {
+    color: var(--foundation-infoi400);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-right: -12px;
+    margin-top: -1px;
+    position: relative;
+    width: 746px;
+  }
+  
+  .detail-kursus .text-wrapper-39 {
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+  }
+  
+  .detail-kursus .deskripsi-course-instance {
+    align-self: stretch !important;
+    min-height: 230px !important;
+    width: 100% !important;
+    background-color: var(--foundation-neutraln10);
+  }
+  
+  .detail-kursus .deskripsi-course-2 {
+    /* -webkit-line-clamp: 5 !important; */
+    text-align: unset !important;
+  }
+  
+  .detail-kursus .detail-materi-course {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--foundationneutraln-0);
+    border-radius: 20px;
+    box-shadow: var(--shadow-1);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+    position: relative;
+    width: 100%;
+  }
+
+  .detail-kursus .detail-materi-course-1 {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--foundationneutraln-0);
+    border-radius: 20px;
+    box-shadow: var(--shadow-1);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+    position: absolute;
+    top: 2330px;
+    left: 120px;
+    width: 1230px;
+  }
+  
+  .detail-kursus .frame-32 {
+    align-self: stretch;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .ellipse-1 {
+    border-radius: 11.5px;
+    height: 23px;
+    position: relative;
+    width: 23px;
+  }
+  
+  .detail-kursus .text-wrapper-40 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-reg-font-family);
+    font-size: var(--body-reg-font-size);
+    font-style: var(--body-reg-font-style);
+    font-weight: var(--body-reg-font-weight);
+    letter-spacing: var(--body-reg-letter-spacing);
+    line-height: var(--body-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .dropdown-instance {
+    border: unset !important;
+    border-color: unset !important;
+    border-radius: unset !important;
+    box-shadow: 0px 1px 0px #00000026 !important;
+    width: 669px !important;
+  }
+  
+  .detail-kursus .vector-4 {
+    height: 21px;
+    left: 43px;
+    position: absolute;
+    top: 947px;
+    width: 16px;
+  }
+  
+  .detail-kursus .vector-5 {
+    height: 21px;
+    left: 43px;
+    position: absolute;
+    top: 887px;
+    width: 16px;
+  }
+  
+  .detail-kursus .vector-6 {
+    height: 21px;
+    left: 43px;
+    position: absolute;
+    top: 827px;
+    width: 16px;
+  }
+  
+  .detail-kursus .vector-7 {
+    height: 21px;
+    left: 43px;
+    position: absolute;
+    top: 767px;
+    width: 16px;
+  }
+  
+  .detail-kursus .frame-33 {
+    align-items: flex-start;
+    background-color: var(--foundationneutraln-0);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+    width: 705px;
+    width: 100%;
+  }
+  
+  .detail-kursus .frame-34 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .detail-kursus .ellipse-3 {
+    background-color: #3088c8;
+    border-radius: 11.5px;
+    height: 23px;
+    position: relative;
+    width: 23px;
+  }
+  
+  .detail-kursus .text-wrapper-41 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .rating {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 27px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .frame-35 {
+    align-items: center;
+    background-color: #3088c8;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 135px;
+    justify-content: center;
+    padding: 35px 22px;
+    position: relative;
+    width: 171px;
+  }
+  
+  .detail-kursus .group-9 {
+    height: 61px;
+    position: relative;
+    width: 120px;
+  }
+  
+  .detail-kursus .overlap-group-5 {
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 114px;
+  }
+  
+  .detail-kursus .text-wrapper-42 {
+    color: #ffffff;
+    font-family: var(--h2-bold-font-family);
+    font-size: var(--h2-bold-font-size);
+    font-style: var(--h2-bold-font-style);
+    font-weight: var(--h2-bold-font-weight);
+    height: 22px;
+    left: 0;
+    letter-spacing: var(--h2-bold-letter-spacing);
+    line-height: var(--h2-bold-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    white-space: nowrap;
+    width: 114px;
+  }
+  
+  .detail-kursus .text-wrapper-43 {
+    color: #ffffff;
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    height: 22px;
+    left: 94px;
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    white-space: nowrap;
+    width: 20px;
+  }
+  
+  .detail-kursus .text-wrapper-44 {
+    color: #ffffff;
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    height: 20px;
+    left: 15px;
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    position: absolute;
+    top: 55px;
+    white-space: nowrap;
+  }
+  
+  .detail-kursus .frame-36 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    width: 507px;
+    left: 20px;
+  }
+  
+  .detail-kursus .frame-37 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 26px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .star-2 {
+    height: 18px;
+    object-fit: cover;
+    position: relative;
+    width: 18px;
+  }
+  
+  .detail-kursus .text-wrapper-45 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    height: 22px;
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 20px;
+  }
+  
+  .detail-kursus .group-10 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 16px;
+    position: relative;
+    width: 397px;
+  }
+  
+  .detail-kursus .rectangle-4 {
+    background-color: #ffc107;
+    border-radius: 20px;
+    height: 16px;
+    width: 339px;
+  }
+  
+  .detail-kursus .rectangle-5 {
+    background-color: #fbb50e;
+    border-radius: 20px;
+    height: 16px;
+    width: 74px;
+  }
+  
+  .detail-kursus .rectangle-6 {
+    background-color: #fbb50e;
+    border-radius: 20px;
+    height: 16px;
+    width: 29px;
+  }
+  
+  .detail-kursus .frame-38 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 687px;
+  }
+  
+  .detail-kursus .frame-39 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .text-wrapper-46 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-bold-font-family);
+    font-size: var(--subtitle-bold-font-size);
+    font-style: var(--subtitle-bold-font-style);
+    font-weight: var(--subtitle-bold-font-weight);
+    letter-spacing: var(--subtitle-bold-letter-spacing);
+    line-height: var(--subtitle-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .frame-40 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-47 {
+    color: var(--foundationneutraln-300);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .text-wrapper-48 {
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp: 3; */
+    color: var(--foundationneutraln-900);
+    display: -webkit-box;
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    height: 72px;
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    width: 664px;
+  }
+  
+  .detail-kursus .line-2 {
+    height: 2px;
+    margin-right: -11px;
+    object-fit: cover;
+    position: relative;
+    width: 698px;
+  }
+  
+  .detail-kursus .navigation-number {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    height: 32px;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .container-5 {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .detail-kursus .button-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 0px 0px 8px;
+    position: relative;
+  }
+  
+  .detail-kursus .button-2 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--pijarmahiridroyal-blue);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.4px;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 13.48px 7px 13.47px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-49 {
+    color: var(--pijarmahiridroyal-blue);
+    font-family: var(--pijarmahir-id-inter-regular-14-font-family);
+    font-size: var(--pijarmahir-id-inter-regular-14-font-size);
+    font-style: var(--pijarmahir-id-inter-regular-14-font-style);
+    font-weight: var(--pijarmahir-id-inter-regular-14-font-weight);
+    letter-spacing: var(--pijarmahir-id-inter-regular-14-letter-spacing);
+    line-height: var(--pijarmahir-id-inter-regular-14-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .button-3 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--pijarmahiridiron);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.4px;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.89px 7px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-50 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--pijarmahir-id-inter-regular-14-font-family);
+    font-size: var(--pijarmahir-id-inter-regular-14-font-size);
+    font-style: var(--pijarmahir-id-inter-regular-14-font-style);
+    font-weight: var(--pijarmahir-id-inter-regular-14-font-weight);
+    letter-spacing: var(--pijarmahir-id-inter-regular-14-letter-spacing);
+    line-height: var(--pijarmahir-id-inter-regular-14-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .button-4 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--pijarmahiridiron);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.4px;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.87px 7px 11.86px;
+    position: relative;
+  }
+  
+  .detail-kursus .button-5 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--pijarmahiridiron);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.4px;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.56px 7px;
+    position: relative;
+  }
+  
+  .detail-kursus .button-6 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--pijarmahiridiron);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.4px;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 11.3px 7px 11.28px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-51 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--pijarmahir-id-inter-regular-12-14-font-family);
+    font-size: var(--pijarmahir-id-inter-regular-12-14-font-size);
+    font-style: var(--pijarmahir-id-inter-regular-12-14-font-style);
+    font-weight: var(--pijarmahir-id-inter-regular-12-14-font-weight);
+    letter-spacing: var(--pijarmahir-id-inter-regular-12-14-letter-spacing);
+    line-height: var(--pijarmahir-id-inter-regular-12-14-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .button-7 {
+    all: unset;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--pijarmahiridiron);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.4px;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 5.4px 7.64px 7px 7.63px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-52 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--pijarmahir-id-inter-regular-13-45-font-family);
+    font-size: var(--pijarmahir-id-inter-regular-13-45-font-size);
+    font-style: var(--pijarmahir-id-inter-regular-13-45-font-style);
+    font-weight: var(--pijarmahir-id-inter-regular-13-45-font-weight);
+    letter-spacing: var(--pijarmahir-id-inter-regular-13-45-letter-spacing);
+    line-height: var(--pijarmahir-id-inter-regular-13-45-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .frame-wrapper {
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .frame-41 {
+    align-items: center;
+    display: inline-flex;
+    gap: 16px;
+    left: 16px;
+    position: relative;
+    top: 8px;
+  }
+  
+  .detail-kursus .frame-42 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 0px 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .img-3 {
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .detail-kursus .card-instance {
+    position: relative !important;
+  }
+  
+  .detail-kursus .navigation-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .detail-kursus .navigasi-atas {
+    background-color: var(--foundationpijar-bluep300);
+    height: 57px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .menu-navbar-atas {
+    align-items: center;
+    display: inline-flex;
+    gap: 32px;
+    left: 345px;
+    position: relative;
+    top: 8px;
+  }
+  
+  .detail-kursus .item {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    height: 40px;
+    position: relative;
+  }
+  
+  .detail-kursus .link-3 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .text-wrapper-53 {
+    color: var(--pijarmahiridwhite);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .header {
+    background-color: var(--foundationneutraln-0);
+    box-shadow: var(--shadow-1);
+    height: 78px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .header-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 68px;
+    justify-content: center;
+    left: 117px;
+    position: relative;
+    top: 14px;
+  }
+  
+  .detail-kursus .logo-default {
+    height: 50px !important;
+    position: relative !important;
+    width: 81.73px !important;
+  }
+  
+  .detail-kursus .menu-search {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 46px;
+    position: relative;
+  }
+  
+  .detail-kursus .SVG-2 {
+    height: 29px;
+    left: 401px;
+    position: absolute;
+    top: -8px;
+    width: 29px;
+  }
+  
+  .detail-kursus .menu-text {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 64px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-54 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .non-course {
+    height: 20px;
+    position: relative;
+    width: 123px;
+  }
+  
+  .detail-kursus .text-wrapper-55 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    height: 20px;
+    left: 0;
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .detail-kursus .non-course-2 {
+    height: 20px;
+    margin-right: -2px;
+    position: relative;
+    width: 97px;
+  }
+  
+  .detail-kursus .search-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 405px;
+  }
+  
+  .detail-kursus .border {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 8px;
+    display: flex;
+    height: 36px;
+    overflow: hidden;
+    padding: 1px 1px 1px 17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .input {
+    flex: 1;
+    flex-grow: 1;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .detail-kursus .overlap-group-6 {
+    height: 20px;
+    position: relative;
+    width: 335px;
+  }
+  
+  .detail-kursus .container-6 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 331px;
+  }
+  
+  .detail-kursus .text-wrapper-56 {
+    color: var(--pijarmahiridgray-chateau);
+    font-family: var(--caption-reg-font-family);
+    font-size: var(--caption-reg-font-size);
+    font-style: var(--caption-reg-font-style);
+    font-weight: var(--caption-reg-font-weight);
+    letter-spacing: var(--caption-reg-letter-spacing);
+    line-height: var(--caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .container-7 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 335px;
+  }
+  
+  .detail-kursus .margin-4 {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .detail-kursus .menu-icon {
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .detail-kursus .header-wrapper {
+    align-items: flex-start;
+    background-color: var(--foundationneutraln-20);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 51px;
+    left: 0;
+    padding: 18px 120px;
+    position: absolute;
+    top: 135px;
+    width: 1440px;
+  }
+  
+  .detail-kursus .header-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -37px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .container-8 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .detail-kursus .div-wrapper-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-57 {
+    color: var(--foundationpijar-bluep300);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .container-9 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: -2.13e-14px;
+    padding: 0px 8px;
+    position: relative;
+  }
+  
+  .detail-kursus .text-wrapper-58 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .detail-kursus .container-10 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 8px;
+    position: relative;
+  }
+  
+  .detail-kursus .container-11 {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .detail-kursus .footer-3 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 3070px !important;
+    width: 100%;
+  }
+  
+  .detail-kursus .footer-4 {
+    background-image: url(https://c.animaapp.com/2SEX4X9W/img/logo-default-5.svg) !important;
+  }
+
+  .detail-kursus .text-wrapper-40 {
+  color: var(--foundationneutraln-900);
+  font-family: var(--body-reg-font-family);
+  font-size: var(--body-reg-font-size);
+  font-style: var(--body-reg-font-style);
+  font-weight: var(--body-reg-font-weight);
+  letter-spacing: var(--body-reg-letter-spacing);
+  line-height: var(--body-reg-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  font-weight: 600;
+  }
+
+  
+  .detail-kursus .text-wrapper-4 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-reg-font-family);
+    font-size: var(--body-reg-font-size);
+    font-style: var(--body-reg-font-style);
+    font-weight: var(--body-reg-font-weight);
+    letter-spacing: var(--body-reg-letter-spacing);
+    line-height: var(--body-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    font-weight: 600;
+  }
+
+  .detail-kursus .frame-8 {
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+  }
+
+  
+

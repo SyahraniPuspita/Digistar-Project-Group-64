@@ -1,0 +1,116 @@
+
+/* Mengatur elemen dropdown agar muncul hanya saat dihover */
+.text-wrapper-28:hover .dropdown-menu {
+    display: block;
+}
+
+.text-wrapper-29:hover .dropdown-menu {
+    display: block;
+}
+
+.text-wrapper-26:hover .dropdown-menu {
+    display: block;
+}
+
+.text-wrapper-19:hover .dropdown-menu {
+    display: block;
+}
+
+.text-wrapper-22-1:hover .dropdown-menu {
+    display: block;
+}
+
+.text-wrapper-54:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown menu default disembunyikan */
+.dropdown-menu {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 220px;
+    z-index: 1;
+    font-size: 13px;
+}
+
+/* Submenu default disembunyikan */
+.dropdown-submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 300px;
+    z-index: 1;
+    font-size: 13px;
+    min-height: 520px;
+}
+
+/* Tampilkan submenu saat elemen induk dihover */
+.dropdown-item:hover > .dropdown-submenu {
+    display: block;
+}
+
+/* Sub-submenu default disembunyikan */
+.dropdown-subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #fff;
+    min-width: 250px;
+    z-index: 1;
+    font-size: 13px;
+    min-height: 520px;
+}
+
+/* Tampilkan sub-submenu saat elemen induk dihover */
+.dropdown-submenu li:hover > .dropdown-subsubmenu {
+    display: block;
+}
+
+/* Mengatur tampilan item dropdown */
+.dropdown-item span {
+    display: block;
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+}
+
+/* Panah ke kanan untuk kategori dan sub-kategori */
+.dropdown-item span::after {
+    content: "→"; /* Menambahkan panah ke kanan */
+    float: right;
+    margin-right: 10px;
+    opacity: 0.7; /* Sedikit transparan agar tidak terlalu mencolok */
+}
+
+/* Menghapus panah pada sub-subkategori */
+.dropdown-subsubmenu .dropdown-item span::after {
+    content: ""; /* Menghilangkan panah pada sub-subkategori */
+    min-height: 100%;
+}
+
+.dropdown-item span:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+
