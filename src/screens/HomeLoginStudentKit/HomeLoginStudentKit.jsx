@@ -16,24 +16,14 @@ import Notification from "../../icons/Notification.svg";
 import DropdownProfile from "../../components/DropdownProfile";
 import { StudentKitUpgradeDialog } from "../../components/UpgradeStudentKit";
 import { StudentKitUpgradeSuccess } from "../../components/UpgradeStudentKitSuccess";
+import { StudentKitActive } from "../../components/StudentKitActive";
 
-export const HomeLogIn = () => {
+export const HomeLogInStudentKit = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isSuccessDialogOpen, setIsSuccessDialogOpen] = useState(false);
-  const [isUpgradeDialogOpen, setIsUpgradeDialogOpen] = useState(false);
+  const [isStudentKitDialogOpen, setIsStudentKitDialogOpen] = useState(false);
 
-  const toggleSuccessDialog = () => {
-    setIsSuccessDialogOpen(!isSuccessDialogOpen);
-    setIsUpgradeDialogOpen(false);
-  };
-
-  const onSuccessUpgradeClose = () => {
-    toggleSuccessDialog();
-    navigate("/loginstudentkit");
-  }
-
-  const toggleUpgradeDialog = () => {
-    setIsUpgradeDialogOpen(!isUpgradeDialogOpen);
+  const toggleStudentKitDialog = () => {
+    setIsStudentKitDialogOpen((prev) => !prev);
   };
 
   const handlePrev = () => {
@@ -47,6 +37,12 @@ export const HomeLogIn = () => {
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 2) % testimoniData.length);
   };
+
+  const handleClickDetailKursus = () => {
+    // Navigasi ke halaman login
+    navigate("/detailkursus");
+  };
+
   const testimoniData = [
     {
       ellipse: "/img/ellipse-1-1.png",
@@ -204,14 +200,13 @@ export const HomeLogIn = () => {
                 style={{ cursor: "pointer" }}
               />
               <img src={Notification} alt="icon" />
-              <DropdownProfile onStudentKitClicked={toggleUpgradeDialog} />
+              <DropdownProfile onStudentKitClicked={toggleStudentKitDialog} />
             </div>
           </div>
         </div>
       </div>
       <div className="konten">
-        <StudentKitUpgradeDialog isOpen={isUpgradeDialogOpen} onOpenSuccessDialog={toggleSuccessDialog} toggle={toggleUpgradeDialog} />
-        <StudentKitUpgradeSuccess isOpen={isSuccessDialogOpen} onClose={onSuccessUpgradeClose} />
+      <StudentKitActive isOpen={isStudentKitDialogOpen} toggle={toggleStudentKitDialog} />
         <BannerHome
           bannerAtas="https://c.animaapp.com/IMLcrDb6/img/banner-atas-4.png"
           varian="new-features"
@@ -254,20 +249,46 @@ export const HomeLogIn = () => {
           <div className="inovasi-grup">
             <div className="freemium-2">
               <Chip className="chip-instance" text="KURSUS FREEMIUM" />
-              <FreemiumCourses
-                cardFrameClassName="freemium-courses-2"
-                cardGroup="https://c.animaapp.com/IMLcrDb6/img/group-2-27@2x.png"
-                cardImg="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-10@2x.png"
-                cardRectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-9@2x.png"
-                cardRectangle1="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-11@2x.png"
-                cardRectangle2="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-12@2x.png"
-                cardText="Artificial Intelligence &amp; Machine Learning"
-                cardText1="UI/UX Design untuk Pemula"
-                cardText2="Back End Developer Entry Level"
-                cardText3="Data Analyst Entry Level-Intermediate"
-                cardVector="https://c.animaapp.com/IMLcrDb6/img/vector-1-14.svg"
-                className="freemium-courses-instance"
-              />
+
+    <div className={`freemium-courses freemium-course-instance`}>
+      <Card
+        className="card-instance"
+        group="/img/group-2-7.png"
+        rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-9@2x.png"
+        text="Artificial Intelligence &amp; Machine Learning"
+        variasi="student-freemium"
+        vector="/img/vector-1-4.svg"
+        onClick={handleClickDetailKursus} style={{ cursor: "pointer" }}
+      />
+      <Card
+        className="design-component-instance-node"
+        frameClassName="freemium-courses-2"
+        group="https://c.animaapp.com/IMLcrDb6/img/group-2-27@2x.png"
+        rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-10@2x.png"
+        text="UI/UX Design untuk Pemula"
+        variasi="student-freemium"
+        vector="https://c.animaapp.com/IMLcrDb6/img/vector-1-14.svg"
+        onClick={handleClickDetailKursus} style={{ cursor: "pointer" }}
+      />
+      <Card
+        className="card-2"
+        group="/img/group-2-7.png"
+        rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-11@2x.png"
+        text="Back End Developer Entry Level"
+        variasi="student-freemium"
+        vector="/img/vector-1-4.svg"
+        onClick={handleClickDetailKursus} style={{ cursor: "pointer" }}
+      />
+      <Card
+        className="card-3"
+        group="/img/group-2-7.png"
+        rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-12@2x.png"
+        text="Data Analyst Entry Level-Intermediate"
+        variasi="student-freemium"
+        vector="/img/vector-1-4.svg"
+        onClick={handleClickDetailKursus} style={{ cursor: "pointer" }}
+      />
+    </div>
             </div>
             <div className="paid">
               <Chip
@@ -283,28 +304,28 @@ export const HomeLogIn = () => {
                   group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
                   rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-13@2x.png"
                   text="Self-Dev : How to Stay Productive"
-                  variasi="regular-paid"
+                  variasi="student-paid"
                 />
                 <Card
                   className="design-component-instance-node-2"
                   group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
                   rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-14@2x.png"
                   text="Personal Branding in Instagram"
-                  variasi="regular-paid"
+                  variasi="student-paid"
                 />
                 <Card
                   className="design-component-instance-node-2"
                   group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
                   rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-15@2x.png"
                   text="Self-Dev : How to Stay Positive"
-                  variasi="regular-paid"
+                  variasi="student-paid"
                 />
                 <Card
                   className="design-component-instance-node-2"
                   group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
                   rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-16@2x.png"
                   text="How to Make Decision with Pressure"
-                  variasi="regular-paid"
+                  variasi="student-paid"
                 />
               </div>
             </div>
@@ -339,28 +360,28 @@ export const HomeLogIn = () => {
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-13@2x.png"
               text="Self-Dev : How to Stay Productive"
-              variasi="regular-paid"
+              variasi="student-paid"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-11@2x.png"
               text="Back End Developer Entry Level"
-              variasi="regular-freemium"
+              variasi="student-freemium"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-15@2x.png"
               text="Self-Dev : How to Stay Positive"
-              variasi="regular-paid"
+              variasi="student-paid"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-12@2x.png"
               text="Data Analyst Entry Level-Intermediate"
-              variasi="regular-freemium"
+              variasi="student-freemium"
             />
           </div>
           <div
@@ -379,28 +400,28 @@ export const HomeLogIn = () => {
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-21@2x.png"
               text="Build Your Own Business Now"
-              variasi="regular-paid"
+              variasi="student-paid"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-24@2x.png"
               text="Marketing with Facebook Ads"
-              variasi="regular-paid"
+              variasi="student-paid"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-23@2x.png"
               text="SEO &amp; SEM dalam Digital Marketing"
-              variasi="regular-freemium"
+              variasi="student-freemium"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-12@2x.png"
               text="Data Analyst Entry Level-Intermediate"
-              variasi="regular-freemium"
+              variasi="student-freemium"
             />
           </div>
           <div
@@ -420,28 +441,28 @@ export const HomeLogIn = () => {
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-26@2x.png"
               text="Copywriting untuk Digital Marketing"
-              variasi="regular-freemium"
+              variasi="student-freemium"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-25@2x.png"
               text="Marketing with Google Ads &amp; Youtube"
-              variasi="regular-paid"
+              variasi="student-paid"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-27@2x.png"
               text="Marketing with Social Media : Ig, TikTok, X"
-              variasi="regular-paid"
+              variasi="student-paid"
             />
             <Card
               className="design-component-instance-node-2"
               group="https://c.animaapp.com/IMLcrDb6/img/group-2-26@2x.png"
               rectangle="https://c.animaapp.com/IMLcrDb6/img/rectangle-8-12@2x.png"
               text="Data Analyst Entry Level-Intermediate"
-              variasi="regular-freemium"
+              variasi="student-freemium"
             />
           </div>
           <div

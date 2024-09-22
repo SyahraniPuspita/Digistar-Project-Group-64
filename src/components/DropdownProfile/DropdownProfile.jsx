@@ -1,11 +1,25 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./style.css";
 import Profile from "../../icons/Profile.svg"; // Ganti sesuai jalur ikon yang benar
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBookBookmark, faBook, faHeart, faUserFriends, faHistory, faTags, faCertificate, faGift, faUserCog, faSignOutAlt, faGraduationCap, faMessage } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBookBookmark,
+  faBook,
+  faHeart,
+  faUserFriends,
+  faHistory,
+  faTags,
+  faCertificate,
+  faGift,
+  faUserCog,
+  faSignOutAlt,
+  faGraduationCap,
+  faMessage,
+} from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import { StudentKitUpgradeDialog } from "../UpgradeStudentKit/index";
 
-const DropdownProfile = () => {
+const DropdownProfile = ({onStudentKitClicked}) => {
   const [isOpen, setIsOpen] = useState(false); // State untuk membuka/menutup dropdown
   const dropdownRef = useRef(null); // Ref untuk elemen dropdown
 
@@ -51,11 +65,7 @@ const DropdownProfile = () => {
       {isOpen && (
         <div className="dropdown-menu-1">
           <div className="profile-info">
-            <img
-              src={Profile}
-              alt="Profile"
-              className="profile-avatar"
-            />
+            <img src={Profile} alt="Profile" className="profile-avatar" />
             <div className="profile-details">
               <h4>Syahrani Puspita Wijaya</h4>
               <p>syahrani.spw@gmail.com</p>
@@ -65,11 +75,14 @@ const DropdownProfile = () => {
             <li onClick={handleClickKursusSaya} style={{ cursor: "pointer" }}>
               <FontAwesomeIcon icon={faBook} /> Kursus Saya
             </li>
-            <li>
-            <FontAwesomeIcon icon={faGraduationCap} />  Student Kit <span className="new">NEW!</span>
+            <li onClick={onStudentKitClicked}>
+              {/* <StudentKitUpgradeDialog /> */}
+              <FontAwesomeIcon icon={faGraduationCap} /> Student Kit{" "}
+              <span className="new">NEW!</span>
             </li>
             <li>
-              <FontAwesomeIcon icon={faMessage} /> Review CV & Project Saya <span className="new">NEW!</span>
+              <FontAwesomeIcon icon={faMessage} /> Review CV & Project Saya{" "}
+              <span className="new">NEW!</span>
             </li>
             <li>
               <FontAwesomeIcon icon={faBookBookmark} /> Minat Pelatihan
@@ -81,7 +94,7 @@ const DropdownProfile = () => {
               <FontAwesomeIcon icon={faHistory} /> Riwayat Transaksi
             </li>
             <li>
-              <FontAwesomeIcon icon={faTags} /> Promo 
+              <FontAwesomeIcon icon={faTags} /> Promo
             </li>
             <li>
               <FontAwesomeIcon icon={faHeart} /> Wishlist Saya
@@ -106,8 +119,3 @@ const DropdownProfile = () => {
 };
 
 export default DropdownProfile;
-
-
-
-
-

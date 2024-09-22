@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage } from "./src/screens/LandingPage/LandingPage";
 import { HomeLogIn }  from "./src/screens/HomeLogin"; // Komponen Halaman Masuk (Login)
+import { HomeLogInStudentKit }  from "./src/screens/HomeLoginStudentKit"; // Komponen Halaman Masuk (Login)
 import { KategoriFilter } from "./src/screens/KategoriFilter";
 import { Keranjang } from "./src/screens/Keranjang";
 import { Pembayaran } from "./src/screens/Pembayaran/Pembayaran";
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<HomeLogIn />} />
+        <Route path="/loginstudentkit" element={<HomeLogInStudentKit />} />
         <Route path="/kategorifilter" element={<KategoriFilter />} />
         <Route path="/keranjang" element={<Keranjang />} />
         <Route path="/pembayaran" element={<Pembayaran />} />

@@ -1,0 +1,99 @@
+.form-upgrade {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 453px;
+}
+
+.form-upgrade .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.form-upgrade .label-email {
+  align-self: stretch;
+  background: transparent;
+  border: none;
+  color: var(--foundationneutraln-900);
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.9px;
+  font-weight: 400;
+  height: 20px;
+  letter-spacing: 0.35px;
+  line-height: 20px;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+}
+
+.form-upgrade .text-box {
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e5e7eb;
+  border-radius: 8px;
+  height: 48px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.form-upgrade .input {
+  background: none;
+  border: none;
+  color: var(--foundationneutraln-100);
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 20px;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  padding-left: 0;
+  position: relative;
+  top: 14px;
+  width: 419px;
+}
+
+.form-upgrade .verif-student-kit-instance {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.form-upgrade .button {
+  all: unset;
+  align-self: stretch;
+  background-color: var(--foundationneutraln-100);
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.form-upgrade .text-wrapper {
+  color: #ffffff;
+  font-family: var(--big-caption-med-font-family);
+  font-size: var(--big-caption-med-font-size);
+  font-style: var(--big-caption-med-font-style);
+  font-weight: var(--big-caption-med-font-weight);
+  height: 16px;
+  left: 182px;
+  letter-spacing: var(--big-caption-med-letter-spacing);
+  line-height: var(--big-caption-med-line-height);
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+  width: 75px;
+}

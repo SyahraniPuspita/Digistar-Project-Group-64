@@ -351,7 +351,7 @@ export const DetailKursusFreemium = () => {
               <Card
                 className="card-instance"
                 group1="https://c.animaapp.com/2SEX4X9W/img/group-2-6@2x.png"
-                rectangle1="https://c.animaapp.com/2SEX4X9W/img/rectangle-8-8@2x.png"
+                rectangle="https://c.animaapp.com/2SEX4X9W/img/rectangle-8-8@2x.png"
                 text="Marketing with Social Media : Ig, TikTok, X"
                 variasi="student-paid"
                 vector1="https://c.animaapp.com/2SEX4X9W/img/vector-2-4.svg"

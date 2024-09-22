@@ -40,7 +40,7 @@ export const Card = ({
         <div className="group">
           {["student-freemium", "student-paid"].includes(variasi) && (
             <div className="div">
-              <img className="img" alt="Rectangle" src="/img/rectangle-8-8.png" />
+              <img className="img" alt="Rectangle" src={rectangle} />
               <img
                 className="vector"
                 alt="Vector"
