@@ -8,6 +8,9 @@ import { DetailKursusFreemium } from "./src/screens/DetailKursusFreemium";
 import { DetailKursusPaid } from "./src/screens/DetailKursusPaid";
 import { KursusSaya } from "./src/screens/KursusSaya";
 import { LmsFreemium } from "./src/screens/LmsFreemium";
+import { ReviewCv } from "./src/screens/ReviewCv";
+import { ReviewProject } from "./src/screens/ReviewProject";
+import { HasilReview } from "./src/screens/HasilReview";
 function App() {
   return (
     <Router>
@@ -21,6 +24,9 @@ function App() {
         <Route path="/detailkursuspaid" element={<DetailKursusPaid />} />
         <Route path="/kursussaya" element={<KursusSaya />} />
         <Route path="/lmsfreemium" element={<LmsFreemium />} />
+        <Route path="/reviewcv" element={<ReviewCv />} />
+        <Route path="/reviewproject" element={<ReviewProject />} />
+        <Route path="/hasilreview" element={<HasilReview />} />
       </Routes>
     </Router>
   );
