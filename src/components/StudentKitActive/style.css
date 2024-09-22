@@ -1,0 +1,292 @@
+:root {
+  --big-caption-med-font-family: "Inter", Helvetica;
+  --big-caption-med-font-size: 14px;
+  --big-caption-med-font-style: normal;
+  --big-caption-med-font-weight: 500;
+  --big-caption-med-letter-spacing: 0px;
+  --big-caption-med-line-height: 16.25px;
+  --big-caption-reg-font-family: "Inter", Helvetica;
+  --big-caption-reg-font-size: 14px;
+  --big-caption-reg-font-style: normal;
+  --big-caption-reg-font-weight: 400;
+  --big-caption-reg-letter-spacing: 0px;
+  --big-caption-reg-line-height: 16.25px;
+  --body-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --body-bold-font-size: 20px;
+  --body-bold-font-style: normal;
+  --body-bold-font-weight: 800;
+  --body-bold-letter-spacing: 0px;
+  --body-bold-line-height: 25px;
+  --body-med-font-family: "Plus Jakarta Sans", Helvetica;
+  --body-med-font-size: 20px;
+  --body-med-font-style: normal;
+  --body-med-font-weight: 500;
+  --body-med-letter-spacing: 0px;
+  --body-med-line-height: 25px;
+  --body-reg-font-family: "Plus Jakarta Sans", Helvetica;
+  --body-reg-font-size: 20px;
+  --body-reg-font-style: normal;
+  --body-reg-font-weight: 400;
+  --body-reg-letter-spacing: 0px;
+  --body-reg-line-height: 25px;
+  --caption-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --caption-bold-font-size: 12px;
+  --caption-bold-font-style: normal;
+  --caption-bold-font-weight: 800;
+  --caption-bold-letter-spacing: 0px;
+  --caption-bold-line-height: 15px;
+  --caption-med-font-family: "Plus Jakarta Sans", Helvetica;
+  --caption-med-font-size: 12px;
+  --caption-med-font-style: normal;
+  --caption-med-font-weight: 500;
+  --caption-med-letter-spacing: 0px;
+  --caption-med-line-height: 15px;
+  --caption-reg-font-family: "Plus Jakarta Sans", Helvetica;
+  --caption-reg-font-size: 12px;
+  --caption-reg-font-style: normal;
+  --caption-reg-font-weight: 400;
+  --caption-reg-letter-spacing: 0px;
+  --caption-reg-line-height: 15px;
+  --footnote-reg-font-family: "Plus Jakarta Sans", Helvetica;
+  --footnote-reg-font-size: 11px;
+  --footnote-reg-font-style: normal;
+  --footnote-reg-font-weight: 400;
+  --footnote-reg-letter-spacing: 0px;
+  --footnote-reg-line-height: 12.5px;
+  --foundation-dangerd300: rgba(252, 64, 46, 1);
+  --foundation-dangerd50: rgba(255, 236, 234, 1);
+  --foundation-dangerd500: rgba(154, 39, 28, 1);
+  --foundation-infoi300: rgba(4, 174, 242, 1);
+  --foundation-infoi400: rgba(3, 122, 169, 1);
+  --foundation-infoi50: rgba(230, 247, 254, 1);
+  --foundation-warningw300: rgba(239, 201, 11, 1);
+  --foundation-warningw400: rgba(167, 141, 8, 1);
+  --foundation-warningw50: rgba(253, 250, 231, 1);
+  --foundationneutraln-0: rgba(255, 255, 255, 1);
+  --foundationneutraln-100: rgba(139, 139, 139, 1);
+  --foundationneutraln-20: rgba(246, 246, 246, 1);
+  --foundationneutraln-300: rgba(114, 114, 114, 1);
+  --foundationneutraln-40: rgba(227, 227, 227, 1);
+  --foundationneutraln-60: rgba(189, 189, 189, 1);
+  --foundationneutraln-700: rgba(65, 65, 65, 1);
+  --foundationneutraln-80: rgba(165, 165, 165, 1);
+  --foundationneutraln-900: rgba(41, 41, 41, 1);
+  --foundationpijar-bluep300: rgba(48, 136, 200, 1);
+  --foundationpijar-bluep400: rgba(34, 95, 140, 1);
+  --foundationpijar-bluep50: rgba(234, 243, 250, 1);
+  --foundationpijar-bluep500: rgba(29, 83, 122, 1);
+  --foundationpijar-bluep75: rgba(170, 206, 232, 1);
+  --foundationpijar-orangep300: rgba(245, 151, 67, 1);
+  --foundationsuccesss-300: rgba(85, 203, 42, 1);
+  --foundationsuccesss-50: rgba(238, 250, 234, 1);
+  --foundationsuccesss-500: rgba(52, 124, 26, 1);
+  --h1-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --h1-bold-font-size: 64px;
+  --h1-bold-font-style: normal;
+  --h1-bold-font-weight: 800;
+  --h1-bold-letter-spacing: 0px;
+  --h1-bold-line-height: 80px;
+  --h2-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --h2-bold-font-size: 48px;
+  --h2-bold-font-style: normal;
+  --h2-bold-font-weight: 800;
+  --h2-bold-letter-spacing: 0px;
+  --h2-bold-line-height: 60px;
+  --h3-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --h3-bold-font-size: 36px;
+  --h3-bold-font-style: normal;
+  --h3-bold-font-weight: 800;
+  --h3-bold-letter-spacing: 0px;
+  --h3-bold-line-height: 45px;
+  --h4-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --h4-bold-font-size: 32px;
+  --h4-bold-font-style: normal;
+  --h4-bold-font-weight: 800;
+  --h4-bold-letter-spacing: 0px;
+  --h4-bold-line-height: 40px;
+  --headline-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --headline-bold-font-size: 24px;
+  --headline-bold-font-style: normal;
+  --headline-bold-font-weight: 800;
+  --headline-bold-letter-spacing: 0px;
+  --headline-bold-line-height: 30px;
+  --headline-med-font-family: "Plus Jakarta Sans", Helvetica;
+  --headline-med-font-size: 24px;
+  --headline-med-font-style: normal;
+  --headline-med-font-weight: 500;
+  --headline-med-letter-spacing: 0px;
+  --headline-med-line-height: 30px;
+  --pijarmahir-id-inter-medium-14-font-family: "Inter", Helvetica;
+  --pijarmahir-id-inter-medium-14-font-size: 14px;
+  --pijarmahir-id-inter-medium-14-font-style: normal;
+  --pijarmahir-id-inter-medium-14-font-weight: 400;
+  --pijarmahir-id-inter-medium-14-letter-spacing: 0px;
+  --pijarmahir-id-inter-medium-14-line-height: 20px;
+  --pijarmahir-id-inter-medium-16-font-family: "Inter", Helvetica;
+  --pijarmahir-id-inter-medium-16-font-size: 16px;
+  --pijarmahir-id-inter-medium-16-font-style: normal;
+  --pijarmahir-id-inter-medium-16-font-weight: 400;
+  --pijarmahir-id-inter-medium-16-letter-spacing: 0px;
+  --pijarmahir-id-inter-medium-16-line-height: 24px;
+  --pijarmahir-id-inter-regular-12-14-font-family: "Inter", Helvetica;
+  --pijarmahir-id-inter-regular-12-14-font-size: 12.140625px;
+  --pijarmahir-id-inter-regular-12-14-font-style: normal;
+  --pijarmahir-id-inter-regular-12-14-font-weight: 400;
+  --pijarmahir-id-inter-regular-12-14-letter-spacing: 0px;
+  --pijarmahir-id-inter-regular-12-14-line-height: 19.600000381469727px;
+  --pijarmahir-id-inter-regular-13-45-font-family: "Inter", Helvetica;
+  --pijarmahir-id-inter-regular-13-45-font-size: 13.453125px;
+  --pijarmahir-id-inter-regular-13-45-font-style: normal;
+  --pijarmahir-id-inter-regular-13-45-font-weight: 400;
+  --pijarmahir-id-inter-regular-13-45-letter-spacing: 0px;
+  --pijarmahir-id-inter-regular-13-45-line-height: 20px;
+  --pijarmahir-id-inter-regular-14-font-family: "Inter", Helvetica;
+  --pijarmahir-id-inter-regular-14-font-size: 14px;
+  --pijarmahir-id-inter-regular-14-font-style: normal;
+  --pijarmahir-id-inter-regular-14-font-weight: 400;
+  --pijarmahir-id-inter-regular-14-letter-spacing: 0px;
+  --pijarmahir-id-inter-regular-14-line-height: 20px;
+  --pijarmahiridaluminium: rgba(173, 180, 189, 1);
+  --pijarmahiridathens-gray: rgba(229, 231, 235, 1);
+  --pijarmahiridblack: rgba(0, 0, 0, 1);
+  --pijarmahiridcalifornia: rgba(251, 162, 10, 1);
+  --pijarmahiridcurious-blue: rgba(48, 136, 200, 1);
+  --pijarmahiridgallery: rgba(238, 238, 238, 1);
+  --pijarmahiridgolden-tainoi: rgba(255, 197, 85, 1);
+  --pijarmahiridgray-chateau: rgba(149, 159, 170, 1);
+  --pijarmahiridiron: rgba(220, 223, 227, 1);
+  --pijarmahiridouter-space: rgba(47, 53, 59, 1);
+  --pijarmahiridregent-gray: rgba(125, 137, 151, 1);
+  --pijarmahiridroyal-blue: rgba(26, 115, 232, 1);
+  --pijarmahiridtan-hide: rgba(247, 152, 68, 1);
+  --pijarmahiridtree-poppy: rgba(246, 147, 30, 1);
+  --pijarmahiridwhite: rgba(255, 255, 255, 1);
+  --shadow-1: 0px 4px 80px 0px rgba(0, 0, 0, 0.15);
+  --subtitle-bold-font-family: "Plus Jakarta Sans", Helvetica;
+  --subtitle-bold-font-size: 16px;
+  --subtitle-bold-font-style: normal;
+  --subtitle-bold-font-weight: 800;
+  --subtitle-bold-letter-spacing: 0px;
+  --subtitle-bold-line-height: 20px;
+  --subtitle-med-font-family: "Plus Jakarta Sans", Helvetica;
+  --subtitle-med-font-size: 16px;
+  --subtitle-med-font-style: normal;
+  --subtitle-med-font-weight: 500;
+  --subtitle-med-letter-spacing: 0px;
+  --subtitle-med-line-height: 20px;
+  --subtitle-reg-font-family: "Plus Jakarta Sans", Helvetica;
+  --subtitle-reg-font-size: 16px;
+  --subtitle-reg-font-style: normal;
+  --subtitle-reg-font-weight: 400;
+  --subtitle-reg-letter-spacing: 0px;
+  --subtitle-reg-line-height: 20px;
+}
+
+.student-kit-active {
+  background-color: #ffffff;
+  border-radius: 20px;
+  /* box-shadow: var(--shadow-1); */
+  height: 559px;
+  position: relative;
+  width: 1015px;
+}
+
+.student-kit-active .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  left: 25px;
+  position: absolute;
+  top: 32px;
+}
+
+.student-kit-active .happy-student-pana {
+  height: 478.33px;
+  position: relative;
+  width: 501px;
+}
+
+.student-kit-active .div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 433px;
+}
+
+.student-kit-active .heading-masuk {
+  color: transparent;
+  font-family: "Plus Jakarta Sans-ExtraBold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 155px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: -16.5px;
+  margin-right: -16.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 466px;
+}
+
+.student-kit-active .text-wrapper {
+  color: #2f353b;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.student-kit-active .span {
+  color: #3088c8;
+  font-family: var(--h3-bold-font-family);
+  font-size: var(--h3-bold-font-size);
+  font-style: var(--h3-bold-font-style);
+  font-weight: var(--h3-bold-font-weight);
+  letter-spacing: var(--h3-bold-letter-spacing);
+  line-height: var(--h3-bold-line-height);
+}
+
+.student-kit-active .p {
+  color: #2f353b;
+  font-family: var(--subtitle-reg-font-family);
+  font-size: var(--subtitle-reg-font-size);
+  font-style: var(--subtitle-reg-font-style);
+  font-weight: var(--subtitle-reg-font-weight);
+  height: 32px;
+  letter-spacing: var(--subtitle-reg-letter-spacing);
+  line-height: var(--subtitle-reg-line-height);
+  position: relative;
+  text-align: center;
+  width: 275px;
+}
+
+.student-kit-active .span-wrapper {
+  color: #2f353b;
+  font-family: "Plus Jakarta Sans-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  width: 275px;
+}
+
+.student-kit-active .text-wrapper-2 {
+  font-family: var(--body-reg-font-family);
+  font-size: var(--body-reg-font-size);
+  font-style: var(--body-reg-font-style);
+  font-weight: var(--body-reg-font-weight);
+  letter-spacing: var(--body-reg-letter-spacing);
+  line-height: var(--body-reg-line-height);
+}
+
+.student-kit-active .carbon-close-filled {
+  height: 32px;
+  left: 993px;
+  position: absolute;
+  top: -11px;
+  width: 32px;
+}
