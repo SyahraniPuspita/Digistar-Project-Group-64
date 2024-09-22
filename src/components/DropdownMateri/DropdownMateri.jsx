@@ -3,7 +3,7 @@ import React from "react";
 import { useReducer } from "react";
 import "./style.css";
 
-export const DropdownMateri = ({ varian, className, text = "Alur Penggunaan" }) => {
+export const DropdownMateri = ({ varian, className, text = "Alur Penggunaan" , text1 = "Deskripsi detail dropdown" }) => {
   const [state, dispatch] = useReducer(reducer, {
     varian: varian || "closed",
   });
@@ -41,7 +41,7 @@ export const DropdownMateri = ({ varian, className, text = "Alur Penggunaan" }) 
             />
           </div>
           <div className="frame-4">
-            <div className="text-wrapper-2">Deskripsi detail dropdown</div>
+            <div className="text-wrapper-2">{text1}</div>
           </div>
         </>
       )}

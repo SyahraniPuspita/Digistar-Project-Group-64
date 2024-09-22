@@ -1,0 +1,936 @@
+.hasil-review {
+    background-color: #ffffff;
+    height: 2437px;
+    position: relative;
+    width: 100%;
+
+    .reviewcv-wrapped {
+        position: relative;
+        right: 1240px;
+        top : 30px
+    }
+    
+    .offline-wrapped{
+      width: 500px;
+      position: relative;
+      top: 130px;
+      right: 570px;
+      .button.short-big-filled {
+        width: 230px;
+        height: 47px;
+        display: flex;
+        left: 60px;
+        top: 10px;
+    }
+    }
+    
+    .summary {
+        align-items: flex-start;
+        align-self: stretch;
+        background-color: var(--foundationneutraln-10);
+        border-radius: 4px;
+        box-shadow: 0px 4px 80px #00000026;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 95px;
+        justify-content: center;
+        padding: 17px 25px;
+        position: relative;
+        width: 1230px;
+      }
+    
+    .frame-15 {
+        align-items: center;
+        align-self: stretch;
+        display: flex;
+        flex: 0 0 auto;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+      }  
+    
+    .summary-2 {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 39px;
+        position: relative;
+        left: 400px;
+      }
+      
+    .frame-16 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 111px;
+      }
+      
+    .text-wrapper-27-2 {
+        align-self: stretch;
+        color: var(--foundationneutraln-900);
+        font-family: var(--caption-bold-font-family);
+        font-size: var(--caption-bold-font-size);
+        font-style: var(--caption-bold-font-style);
+        font-weight: var(--caption-bold-font-weight);
+        letter-spacing: var(--caption-bold-letter-spacing);
+        line-height: var(--caption-bold-line-height);
+        margin-top: -1px;
+        position: relative;
+        text-align: center;
+      }
+      
+    .text-wrapper-28-1 {
+        align-self: stretch;
+        color: var(--foundationneutraln-900);
+        font-family: var(--h3-bold-font-family);
+        font-size: var(--h3-bold-font-size);
+        font-style: var(--h3-bold-font-style);
+        font-weight: var(--h3-bold-font-weight);
+        letter-spacing: var(--h3-bold-letter-spacing);
+        line-height: var(--h3-bold-line-height);
+        position: relative;
+        text-align: center;
+      }
+      
+    .frame-17 {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        position: relative;
+      }
+      
+    .text-wrapper-29-1 {
+        color: var(--foundationneutraln-900);
+        font-family: var(--caption-bold-font-family);
+        font-size: var(--caption-bold-font-size);
+        font-style: var(--caption-bold-font-style);
+        font-weight: var(--caption-bold-font-weight);
+        letter-spacing: var(--caption-bold-letter-spacing);
+        line-height: var(--caption-bold-line-height);
+        margin-top: -1px;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        width: fit-content;
+      }
+      
+      
+    .frame-18 {
+        height: 15px;
+        left: 372px;
+        position: absolute;
+        top: 22px;
+        width: 1px;
+      }
+
+    .info-1 {
+        background-color: var(--foundation-infoi50);
+        border: 1px solid;
+        border-color: var(--foundation-infoi400);
+        border-radius: 8px;
+        height: 70px;
+        position: relative;
+        width: 1230px;
+        margin-top: 10px;
+      }
+
+    .frame-19-1 {
+        align-items: center;
+        display: inline-flex;
+        gap: 8px;
+        left: 6px;
+        position: absolute;
+        top: 3px;
+      }
+
+    .gg-info-1 {
+        height: 24px;
+        position: relative;
+        width: 24px;
+      }
+
+    .text-wrapper-30-1 {
+        color: var(--foundation-infoi400);
+        font-family: var(--subtitle-med-font-family);
+        font-size: var(--subtitle-med-font-size);
+        font-style: var(--subtitle-med-font-style);
+        font-weight: var(--subtitle-med-font-weight);
+        letter-spacing: var(--subtitle-med-letter-spacing);
+        line-height: var(--subtitle-med-line-height);
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+      }
+
+    .silakan-unggah-CV-wrapper-1 {
+        align-items: center;
+        display: flex;
+        gap: 8px;
+        left: 38px;
+        position: absolute;
+        top: 32px;
+        width: 600px;
+      }
+
+    .silakan-unggah-CV-1 {
+        color: var(--foundation-infoi400);
+        font-family: var(--subtitle-med-font-family);
+        font-size: var(--subtitle-med-font-size);
+        font-style: var(--subtitle-med-font-style);
+        font-weight: var(--subtitle-med-font-weight);
+        letter-spacing: var(--subtitle-med-letter-spacing);
+        line-height: var(--subtitle-med-line-height);
+        margin-right: -9px;
+        margin-top: -1px;
+        position: relative;
+        width: 600px;
+      }
+  }
+  
+  .hasil-review .design-component-instance-node {
+    left: 0 !important;
+    position: absolute !important;
+    top: 1400px !important;
+    width: 100%;
+  }
+  
+  /* .hasil-review .footer-3 {
+    align-self: stretch;
+    position: relative;
+    width: 100% !important;
+  }
+  
+  .hasil-review .footer-4 {
+    width: 100% !important;
+  }
+  
+  .hasil-review .footer-5 {
+    background-image: url(../../../static/img/logo-default-5.svg) !important;
+  } */
+  
+  .hasil-review .navigation-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .hasil-review .navigasi-atas {
+    background-color: var(--foundationpijar-bluep300);
+    height: 57px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .menu-navbar-atas {
+    align-items: center;
+    display: inline-flex;
+    gap: 32px;
+    left: 345px;
+    position: relative;
+    top: 8px;
+  }
+  
+  .hasil-review .item {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    height: 40px;
+    position: relative;
+  }
+  
+  .hasil-review .link-2 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .SVG-2 {
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .hasil-review .text-wrapper-25 {
+    color: var(--pijarmahiridwhite);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .hasil-review .rectangle-6 {
+    background-color: #ffffff;
+    height: 50px;
+    left: 267px;
+    position: absolute;
+    top: 81px;
+    width: 83px;
+  }
+  
+  .hasil-review .header {
+    background-color: var(--foundationneutraln-0);
+    box-shadow: var(--shadow-1);
+    height: 78px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .overlap-2 {
+    height: 64px;
+    left: 117px;
+    position: relative;
+    top: 14px;
+    width: 1193px;
+  }
+  
+  .hasil-review .rectangle-7 {
+    background-color: #ffffff;
+    height: 64px;
+    left: 457px;
+    position: absolute;
+    top: 0;
+    width: 127px;
+  }
+  
+  .hasil-review .header-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 68px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hasil-review .logo-default {
+    height: 50px !important;
+    position: relative !important;
+    width: 81.73px !important;
+  }
+  
+  .hasil-review .menu-search {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 46px;
+    position: relative;
+  }
+  
+  .hasil-review .SVG-3 {
+    height: 29px;
+    left: 401px;
+    position: absolute;
+    top: -8px;
+    width: 29px;
+  }
+  
+  .hasil-review .menu-text {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 64px;
+    position: relative;
+  }
+  
+  .hasil-review .text-wrapper-26 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+    cursor: pointer;
+  }
+  
+  .hasil-review .non-course {
+    height: 20px;
+    position: relative;
+    width: 123px;
+  }
+  
+  .hasil-review .text-wrapper-27 {
+    color: var(--pijarmahiridouter-space);
+    font-family: var(--subtitle-reg-font-family);
+    font-size: var(--subtitle-reg-font-size);
+    font-style: var(--subtitle-reg-font-style);
+    font-weight: var(--subtitle-reg-font-weight);
+    height: 20px;
+    left: 0;
+    letter-spacing: var(--subtitle-reg-letter-spacing);
+    line-height: var(--subtitle-reg-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .hasil-review .non-course-2 {
+    height: 20px;
+    margin-right: -2px;
+    position: relative;
+    width: 97px;
+  }
+  
+  .hasil-review .search-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 405px;
+  }
+  
+  .hasil-review .border {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--pijarmahiridathens-gray);
+    border-radius: 8px;
+    display: flex;
+    height: 36px;
+    overflow: hidden;
+    padding: 1px 1px 1px 17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .input {
+    flex: 1;
+    flex-grow: 1;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hasil-review .overlap-group-4-1 {
+    height: 20px;
+    position: relative;
+    width: 335px;
+  }
+  
+  .hasil-review .container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 331px;
+  }
+  
+  .hasil-review .text-wrapper-28 {
+    color: var(--pijarmahiridgray-chateau);
+    font-family: var(--caption-reg-font-family);
+    font-size: var(--caption-reg-font-size);
+    font-style: var(--caption-reg-font-style);
+    font-weight: var(--caption-reg-font-weight);
+    letter-spacing: var(--caption-reg-letter-spacing);
+    line-height: var(--caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .hasil-review .container-3 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 335px;
+  }
+  
+  .hasil-review .margin {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .hasil-review .menu-icon {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 31px;
+    position: relative;
+  }
+  
+  .hasil-review .cart {
+    height: 26px;
+    position: relative;
+    width: 27px;
+  }
+  
+  .hasil-review .notification {
+    height: 25.1px;
+    position: relative;
+    width: 23.61px;
+  }
+  
+  .hasil-review .rectangle-8 {
+    background-color: #ffffff;
+    height: 51px;
+    left: 112px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+  }
+  
+  .hasil-review .profile {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .hasil-review .overlap-3 {
+    height: 167px;
+    left: 0;
+    position: absolute;
+    top: 135px;
+    width: 1440px;
+  }
+  
+  .hasil-review .header-wrapper {
+    align-items: flex-start;
+    background-color: var(--foundationneutraln-20);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 107px;
+    left: 0;
+    padding: 18px 120px;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .hasil-review .header-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .container-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .container-5 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .hasil-review .div-wrapper-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .hasil-review .text-wrapper-29 {
+    color: var(--foundationpijar-bluep300);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .hasil-review .container-6 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: -2.13e-14px;
+    padding: 0px 8px;
+    position: relative;
+  }
+  
+  .hasil-review .text-wrapper-30 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--caption-med-font-family);
+    font-size: var(--caption-med-font-size);
+    font-style: var(--caption-med-font-style);
+    font-weight: var(--caption-med-font-weight);
+    letter-spacing: var(--caption-med-letter-spacing);
+    line-height: var(--caption-med-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .hasil-review .container-7 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 12px 0px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .text-wrapper-31 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--body-bold-font-family);
+    font-size: var(--body-bold-font-size);
+    font-style: var(--body-bold-font-style);
+    font-weight: var(--body-bold-font-weight);
+    letter-spacing: var(--body-bold-letter-spacing);
+    line-height: var(--body-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .hasil-review .tab-menu-instance {
+    left: 120px !important;
+    position: absolute !important;
+    top: 106px !important;
+  }
+  
+  .hasil-review .filter-box {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--foundationneutraln-60);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    padding: 5px 1px;
+    position: absolute;
+    top: 317px;
+    width: 288px;
+  }
+  
+  .hasil-review .container-8 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 8px 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .container-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .container-9 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0px 0px 4px;
+    position: relative;
+  }
+  
+  .hasil-review .text-wrapper-32 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--subtitle-med-font-family);
+    font-size: var(--subtitle-med-font-size);
+    font-style: var(--subtitle-med-font-style);
+    font-weight: var(--subtitle-med-font-weight);
+    letter-spacing: var(--subtitle-med-letter-spacing);
+    line-height: var(--subtitle-med-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .hasil-review .form {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .label {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 8px 0px 8px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hasil-review .container-10 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 8px;
+    position: relative;
+    padding-top: 5px;
+  }
+  
+  .hasil-review .text-wrapper-33 {
+    color: var(--foundationneutraln-700);
+    font-family: var(--big-caption-reg-font-family);
+    font-size: var(--big-caption-reg-font-size);
+    font-style: var(--big-caption-reg-font-style);
+    font-weight: var(--big-caption-reg-font-weight);
+    letter-spacing: var(--big-caption-reg-letter-spacing);
+    line-height: var(--big-caption-reg-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .hasil-review .background-border {
+    background-color: var(--foundationneutraln-0);
+    border: 1px solid;
+    border-color: var(--foundationneutraln-60);
+    border-radius: 9px;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 18px;
+  }
+  
+  .hasil-review .kursus-instance {
+    left: 424px !important;
+    position: absolute !important;
+    top: 317px !important;
+  }
+  
+  .hasil-review .kursus-2 {
+    left: 728px !important;
+    position: absolute !important;
+    top: 317px !important;
+  }
+  
+  .hasil-review .kursus-3 {
+    left: 1032px !important;
+    position: absolute !important;
+    top: 317px !important;
+  }
+  
+  .hasil-review .kursus-4 {
+    left: 424px !important;
+    position: absolute !important;
+    top: 693px !important;
+  }
+  
+  .hasil-review .kursus-5 {
+    left: 728px !important;
+    position: absolute !important;
+    top: 693px !important;
+  }
+  
+  .hasil-review .kursus-6 {
+    top: 218px !important;
+  }
+  
+  .hasil-review .kursus-7 {
+    left: 1032px !important;
+    position: absolute !important;
+    top: 693px !important;
+  }
+  
+  .hasil-review .kursus-8 {
+    left: 424px !important;
+    position: absolute !important;
+    top: 1069px !important;
+  }
+  
+  .hasil-review .kursus-9 {
+    left: 728px !important;
+    position: absolute !important;
+    top: 1069px !important;
+  }
+  
+  .hasil-review .kursus-10 {
+    left: 1032px !important;
+    position: absolute !important;
+    top: 1069px !important;
+  }
+  
+  .hasil-review .kursus-11 {
+    left: 424px !important;
+    position: absolute !important;
+    top: 1445px !important;
+  }
+  
+.reviewcv-wrapped {
+    position: relative;
+    right: 1240px;
+    top : 30px
+}
+
+.offline-wrapped{
+  width: 500px;
+  position: relative;
+  top: 130px;
+  right: 570px;
+  .button.short-big-filled {
+    width: 230px;
+    height: 47px;
+    display: flex;
+    left: 60px;
+    top: 10px;
+}
+}
+
+.summary {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--foundationneutraln-10);
+    border-radius: 4px;
+    box-shadow: 0px 4px 80px #00000026;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 95px;
+    justify-content: center;
+    padding: 17px 25px;
+    position: relative;
+    width: 1230px;
+  }
+
+.frame-15 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }  
+
+.summary-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 39px;
+    position: relative;
+  }
+  
+.frame-16 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 111px;
+  }
+  
+.text-wrapper-27-2 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--caption-bold-font-family);
+    font-size: var(--caption-bold-font-size);
+    font-style: var(--caption-bold-font-style);
+    font-weight: var(--caption-bold-font-weight);
+    letter-spacing: var(--caption-bold-letter-spacing);
+    line-height: var(--caption-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+.text-wrapper-28-1 {
+    align-self: stretch;
+    color: var(--foundationneutraln-900);
+    font-family: var(--h3-bold-font-family);
+    font-size: var(--h3-bold-font-size);
+    font-style: var(--h3-bold-font-style);
+    font-weight: var(--h3-bold-font-weight);
+    letter-spacing: var(--h3-bold-letter-spacing);
+    line-height: var(--h3-bold-line-height);
+    position: relative;
+    text-align: center;
+  }
+  
+.frame-17 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+.text-wrapper-29-1 {
+    color: var(--foundationneutraln-900);
+    font-family: var(--caption-bold-font-family);
+    font-size: var(--caption-bold-font-size);
+    font-style: var(--caption-bold-font-style);
+    font-weight: var(--caption-bold-font-weight);
+    letter-spacing: var(--caption-bold-letter-spacing);
+    line-height: var(--caption-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  
+.frame-18 {
+    height: 15px;
+    left: 372px;
+    position: absolute;
+    top: 22px;
+    width: 1px;
+  }

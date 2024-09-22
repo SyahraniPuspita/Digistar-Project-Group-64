@@ -67,11 +67,11 @@ export const Pembayaran = () => {
                 <div className="non-course-2">
                   <div className="text-wrapper-20">Non-Course</div>
                   <div class="dropdown-content">
-                      <div class="category">
-                        <a href="#">Review CV</a>
+                  <div class="category">
+                        <a href="/reviewcv">Review CV</a>
                       </div>
                       <div class="category">
-                        <a href="#">Review Project</a>
+                        <a href="/reviewproject">Review Project</a>
                       </div>
                       <div class="category">
                         <a href="#">Project Based Internship</a>

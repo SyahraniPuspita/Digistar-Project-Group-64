@@ -24,6 +24,10 @@
     display: block;
 }
 
+.text-wrapper-28-1:hover .dropdown-menu {
+    display: block;
+}
+
 /* Dropdown menu default disembunyikan */
 .dropdown-menu {
     color: var(--pijarmahiridouter-space);

@@ -13,6 +13,7 @@
     flex-direction: column;
     position: relative;
     width: 620px;
+    cursor: pointer;
   }
   
   .tab-menu .review-CV-wrapper {
